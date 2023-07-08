@@ -16,7 +16,7 @@
   background: url(https://cdn.discordapp.com/emojis/929505481989427210.webp) center / 100% 100%;
 }
 
-.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/ec4fedc4e2605ef6cd34cd9d858705d0.webp?size=80"] {
     content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
