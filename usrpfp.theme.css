@@ -5,6 +5,7 @@
  * @description A pure CSS database of user requested pfps for discord.
 */
 
+/* Custom badge for FoxStorm1 */
 #app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="foxstorm1"] .profileBadges-2pItdR::before,
 #app-mount [aria-label="foxstorm1"] .badges-XRnWAp::before {
@@ -14,6 +15,7 @@
   background: url(https://i.pinimg.com/originals/91/3f/bd/913fbdf644301e42ca0ac10daf32a3db.png) center / 100% 100%;
 }
 
+/* Custom avatar for jason09247 */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1081588818550997096/"] {
     content: url('https://i.ibb.co/2PhXd8j/ezgif-1-5594c65fcb.gif');
 }
@@ -56,7 +58,7 @@
 }
 
 
-
+/* Custom avatar for foxstorm1 */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
     content: url('https://i.imgur.com/l7hlm5P.gif');
 }
