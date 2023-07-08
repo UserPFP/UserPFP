@@ -14,7 +14,7 @@ Maximum gif size is set to **12MB** !
 
 ### 1. for [BetterDiscord](https://betterdiscord.app/) user, Use the theme
 
-Install [this](https://raw.githubusercontent.com/pikaioff/USERPFP/main/USERPFP.theme.css) and place it in your **themes** folder
+Install [this](https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/usrpfp.theme.css) and place it in your **themes** folder
 
 This will import USERPFP for everyone can see your custom pfp and you see custom pfps of everyone
 ### 2. for [Replugged](https://replugged.dev/) user, Clone the repo
