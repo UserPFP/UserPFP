@@ -1,7 +1,7 @@
 /**
  * @name USERPFP
- * @author Pikai#3589
- * @version 1.1.1
+ * @author FoxStorm1, Pikai
+ * @version 1.0.0
  * @description A pure CSS database of user requested pfps for discord.
 */
 
