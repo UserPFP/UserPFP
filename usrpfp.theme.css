@@ -58,7 +58,50 @@
 }
 
 
-/* Custom avatar for hitomiwari NOT WORKING*/
+/* Custom avatar for kyoryokunasenshi */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] 
+{
+    content: url('https://i.ibb.co/ScJ0ywB/ezgif-4-25f9d6df7a.gif');
+}
+
+
+/* Custom avatar for hitomiwari */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/372717326199422987/"] {
     content: url('https://i.ibb.co/CVrfpWX/ezgif-com-gif-maker-120.gif');
 }
