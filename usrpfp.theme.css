@@ -5,13 +5,15 @@
  * @description A pure CSS database of user requested pfps for discord.
 */
 
+/* Custom badge for Pikai, Asaki, B1B and the main bot */
+
 #app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="foxstorm1"] .profileBadges-2pItdR::before,
 #app-mount [aria-label="foxstorm1"] .badges-XRnWAp::before {
   content: "";
   width: 22px;
   height: 22px;
-  background: url(https://cdn.discordapp.com/emojis/560540747531681792.webp) center / 100% 100%;
+  background: url(https://i.pinimg.com/originals/91/3f/bd/913fbdf644301e42ca0ac10daf32a3db.png) center / 100% 100%;
 }
 
 .wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/789872551731527690/ec4fedc4e2605ef6cd34cd9d858705d0.webp"] {
