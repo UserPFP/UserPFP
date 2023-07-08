@@ -35,3 +35,6 @@ Add this CSS code in your custom-css setting.
 
 ### 4. UserPFP for Android
 **THIS WILL NOT COME TO ANDROID AS IT IS NOT POSSIBLE**
+
+### 5 [UserBG](https://github.com/Discord-Custom-Covers/usrbg)
+UserBG is not needed to be installed because it is implemented in the theme.
