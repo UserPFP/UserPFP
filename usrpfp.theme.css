@@ -193,12 +193,9 @@
 }
 
 /* Custom badge for carl-bot */
-#app-mount [aria-label="Carl-bot
-#1536"] .badgeList-2aoHPw::before,
-#app-mount [aria-label="Carl-bot
-#1536"] .profileBadges-2pItdR::before,
-#app-mount [aria-label="Carl-bot
-#1536"] .badges-XRnWAp::before {
+#app-mount [aria-label="Carl-bot"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="Carl-bot"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="Carl-bot"] .badges-XRnWAp::before {
   content: "";
   width: 22px;
   height: 22px;
