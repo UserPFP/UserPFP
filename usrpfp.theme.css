@@ -11,15 +11,6 @@
   content: "";
   width: 22px;
   height: 22px;
-  background: url(https://cdn.discordapp.com/emojis/929505481989427210.webp) center / 100% 100%;
-}
-
-#app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
-#app-mount [aria-label="foxstorm1"] .profileBadges-2pItdR::before,
-#app-mount [aria-label="foxstorm1"] .badges-XRnWAp::before {
-  content: "";
-  width: 22px;
-  height: 22px;
   background: url(https://cdn.discordapp.com/emojis/560540747531681792.webp) center / 100% 100%;
 }
 
