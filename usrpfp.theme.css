@@ -192,6 +192,19 @@
  content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
+/* Custom badge for carl-bot */
+#app-mount [aria-label="Carl-bot
+#1536"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="Carl-bot
+#1536"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="Carl-bot
+#1536"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/wJcVy0K/output-onlinegiftools.gif) center / 100% 100%;
+}
+
 /* Custom avatar for carl-bot */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/235148962103951360/"] {
     content: url('https://i.ibb.co/wJcVy0K/output-onlinegiftools.gif');
