@@ -14,6 +14,14 @@
   background: url(https://i.pinimg.com/originals/91/3f/bd/913fbdf644301e42ca0ac10daf32a3db.png) center / 100% 100%;
 }
 
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1081588818550997096/"] {
+    content: url('https://i.ibb.co/2PhXd8j/ezgif-1-5594c65fcb.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/1081588818550997096/"] {
+    content: url('https://i.ibb.co/2PhXd8j/ezgif-1-5594c65fcb.gif');
+}
+
 .contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/1081588818550997096/"] {
     content: url('https://i.ibb.co/2PhXd8j/ezgif-1-5594c65fcb.gif');
 }
