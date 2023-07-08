@@ -17,7 +17,7 @@
 }
 
 .contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://pikaioff.tk/sharex/d2mp2.gif');
+    content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
 .contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
@@ -25,7 +25,7 @@
 }
 
 .wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://pikaioff.tk/sharex/d2mp2.gif');
+    content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
 .layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
@@ -33,7 +33,7 @@
 }
 
 .container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://pikaioff.tk/sharex/d2mp2.gif');
+    content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
 .container-YkUktl [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
