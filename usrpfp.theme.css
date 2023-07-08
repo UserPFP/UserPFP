@@ -8,7 +8,7 @@
 #app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="foxstorm1"] .profileBadges-2pItdR::before,
 #app-mount [aria-label="foxstorm1"] .anchor-1X4H4q::before,
-#app-mount [aria-label="foxstorm1"] [role="button"] .anchorUnderlineOnHover-wiZFZ_::before
+#app-mount [aria-label="foxstorm1"] [role="button"] [aria-hidden="true"] [src="https://cdn.discordapp.com/emojis/1045735735757647943.gif"] [class="profileBadge24-sH1efV profileBadge-12r2Nm desaturate-_Twf3u"] .anchorUnderlineOnHover-wiZFZ_::before
 #app-mount [aria-label="foxstorm1"] .badges-XRnWAp::before {
   content: "";
   width: 22px;
