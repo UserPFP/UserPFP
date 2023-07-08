@@ -12,9 +12,9 @@ Maximum gif size is set to **12MB** !
 
 ## How to see your pfp (after requested it !)
 
-### 1. for [BetterDiscord](https://betterdiscord.app/) user, Use the theme
+### 1. for [Vencord](https://vencord.dev) user, Use the theme
 
-Install [this](https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/usrpfp.theme.css) and place it in your **themes** folder
+Enter https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/usrpfp.theme.css in the themes directory in settings.
 
 This will import USERPFP for everyone can see your custom pfp and you see custom pfps of everyone
 ### 2. for [Replugged](https://replugged.dev/) user, Clone the repo
@@ -22,7 +22,7 @@ This will import USERPFP for everyone can see your custom pfp and you see custom
 Clone the repo with these commands (using [git](https://git-scm.com/downloads))
 
 ```bash
- cd replugged\src\Powercord\themes && git clone https://github.com/pikaioff/USERPFP
+ cd replugged\src\Powercord\themes && git clone https://github.com/Yeetov/USRPFP-Reborn
  ```
 
 ### 3. Use it as a snippet
@@ -30,8 +30,8 @@ Clone the repo with these commands (using [git](https://git-scm.com/downloads))
 Add this CSS code in your custom-css setting.
 
 ```css
-@import url("https://pikaioff.github.io/USERPFP/src/dist/source.css");
+@import url("https://github.com/Yeetov/USRPFP-Reborn/raw/main/src/dist/source.css");
 ```
 
 ### 4. UserPFP for Android
-**FOR THE MOMENT I DONT HAVE THE PROJECT TO MAKE IT FOR ANDROID**
+**THIS WILL NOT COME TO ANDROID AS IT IS NOT POSSIBLE**
