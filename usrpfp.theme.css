@@ -57,6 +57,59 @@
     content: url('https://i.imgur.com/l7hlm5P.gif');
 }
 
+/* Custom badge for Zeraora Bot */
+#app-mount [aria-label="Zeraora Bot"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="Zeraora Bot"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="Zeraora Bot"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/SBqTGnh/My-Coin.gif) center / 100% 100%;
+}
+
+/* Custom avatar for Zeraora Bot */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] {
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/1114869512769126441/"] 
+{
+    content: url('https://i.ibb.co/QY227Fs/6ee8922d9b8da92c120784e66cd8ef6ed3e43ab4-hq.gif');
+}
+
+
 
 /* Custom avatar for kyoryokunasenshi */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/739455398712442910/"] {
