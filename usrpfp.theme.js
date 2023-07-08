@@ -2,9 +2,7 @@
  * @name USERPFP
  * @author Pikai#3589
  * @version 1.1.1
- * @invite 52Nc5Qry4t
  * @description A pure CSS database of user requested pfps for discord.
- * @source https://github.com/pikaioff/USERPFP
 */
 
 #app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
