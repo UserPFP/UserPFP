@@ -4,7 +4,7 @@
 <p align="center"><img height="350" align="center" src="https://cdn.discordapp.com/attachments/941739137038417940/989131870933508096/lv_0_20220622133603.gif"></p>
 
 ## Request your own pfp !
-* Join the [USRPFP Reborn]([https://discord.gg/BT54cvEvnY]) Discord Server, go in this channel [#pfp-request]([https://discord.com/channels/907688780394291260/1127197385345474610]) and wait to be accepted.
+* Join the [USRPFPReborn]([https://discord.gg/BT54cvEvnY]) Discord Server, go in this channel [#pfp-request]([https://discord.com/channels/907688780394291260/1127197385345474610]) and wait to be accepted.
 
 **All requests are accepted/denied manually** by Pikai. You should **wait a litle moment** before your PFP **is accepted and added.**
 
