@@ -18,7 +18,7 @@
 
 
 
-/* Custom avatar for foxstorm1 */
+/* Custom avatar for Foxstorm1 */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
     content: url('https://i.imgur.com/l7hlm5P.gif');
 }
@@ -146,6 +146,15 @@
 }
 
 
+/* Custom badge for blip */
+#app-mount [aria-label="Blip"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="Blip"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="Blip"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/4gcmPvb/output-onlinegiftools-1.gif) center / 100% 100%;
+}
 
 /* Custom avatar for blip */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1102739490503659622/"] {
@@ -234,48 +243,6 @@
 }
 
 
-
-/* Custom avatar for foxstorm1 */
-.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.container-YkUktl [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
-    content: url('https://i.imgur.com/l7hlm5P.gif');
-}
-
-.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] 
-{
- content: url('https://i.imgur.com/l7hlm5P.gif');
-}
 
 /* Custom badge for carl-bot */
 #app-mount [aria-label="Carl-bot"] .badgeList-2aoHPw::before,
