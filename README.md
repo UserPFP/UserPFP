@@ -22,7 +22,7 @@ This will import USERPFP for everyone can see your custom pfp and you see custom
 Clone the repo with these commands (using [git](https://git-scm.com/downloads))
 
 ```bash
- cd replugged\src\Powercord\themes && git clone https://github.com/pikaioff/USERPFP/
+ cd replugged\src\Powercord\themes && git clone https://github.com/pikaioff/USERPFP
  ```
 
 ### 3. Use it as a snippet
