@@ -67,6 +67,15 @@
   height: 22px;
   background: url(https://i.ibb.co/SBqTGnh/My-Coin.gif) center / 100% 100%;
 }
+/* Custom badge for BETA Zeraora Bot */
+#app-mount [aria-label="BETA Zeraora Bot"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="BETA Zeraora Bot"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="BETA Zeraora Bot"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://cdn.discordapp.com/emojis/811260964813013012.gif) center / 100% 100%;
+}
 
 /* Custom avatar for BETA Zeraora Bot */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1116074488774262835/"] {
