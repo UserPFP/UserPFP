@@ -1,7 +1,5 @@
-This is a continuation of USRPFP by Baptisteges on Github
-
 <h1 align="center">USERPFP REBORN</h1>
-<p align="center">A theme for have custom PFPS !</p>
+<p align="center">A theme for have custom PFPS - Continuation by FoxStorm1!</p>
 
 <p align="center"><img height="350" align="center" src="https://cdn.discordapp.com/attachments/941739137038417940/989131870933508096/lv_0_20220622133603.gif"></p>
 
