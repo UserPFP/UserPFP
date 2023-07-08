@@ -37,4 +37,4 @@ Add this CSS code in your custom-css setting.
 **THIS WILL NOT COME TO ANDROID AS IT IS NOT POSSIBLE**
 
 ### 5 [UserBG](https://github.com/Discord-Custom-Covers/usrbg)
-UserBG is not needed to be installed because it is implemented in the theme.
+If you also want a custom banner without nitro you have to check [this](https://github.com/Discord-Custom-Covers/usrbg).
