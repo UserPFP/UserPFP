@@ -34,7 +34,8 @@ Add this CSS code in your custom-css setting.
 ```
 
 ### 4. UserPFP for Android
-**THIS WILL NOT COME TO ANDROID AS IT IS NOT POSSIBLE**
+Only available in [Vencord Android](https://github.com/Vencord/Android/releases)
+same steps as Vencord
 
 ### 5. [UserBG](https://github.com/Discord-Custom-Covers/usrbg)
 If you also want a custom banner without nitro you have to check [this](https://github.com/Discord-Custom-Covers/usrbg).
