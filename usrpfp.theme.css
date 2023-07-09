@@ -58,6 +58,59 @@
 }
 
 
+/* Custom badge for dragonclaw08mm */
+#app-mount [aria-label="dragonclaw08mm"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="dragonclaw08mm"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="dragonclaw08mm"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://emoji.discadia.com/emojis/88387ea8-43b1-47fa-999c-5c57a61a6661.GIF) center / 100% 100%;
+}
+
+/* Custom avatar for dragonclaw08mm */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] {
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/859824986432864286/"] 
+{
+    content: url('https://i.giphy.com/media/ViGwJOV6EWAKs/giphy.webp');
+}
+
+
 /* Custom avatar for Discortics */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/739735540483752006/b1c59ddaf52d69258004632cf1a9bbb4.webp"] {
     content: url('https://i.ibb.co/7KFZjTD/a-223fcb98cdcf817c4aad71bded70b227.gif');
