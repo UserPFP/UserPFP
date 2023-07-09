@@ -59,57 +59,6 @@
 
 
 
-/* Custom badge for unbelievaboat */
-#app-mount [aria-label="UnbelievaBoat"] .badgeList-2aoHPw::before,
-#app-mount [aria-label="UnbelievaBoat"] .profileBadges-2pItdR::before,
-#app-mount [aria-label="UnbelievaBoat"] .badges-XRnWAp::before {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url(https://i.ibb.co/9rM28yN/image-2023-07-09-105422609-removebg-preview.png) center / 100% 100%;
-}
-
-/* Custom avatar for unbelievaboat */
-.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.container-YkUktl [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] {
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
-
-.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/292953664492929025/"] 
-{
-    content: url('https://i.ibb.co/Nx77fLK/discord-avatar-128-G5-B1-N.gif');
-}
 
 
 
