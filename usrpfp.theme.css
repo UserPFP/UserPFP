@@ -59,7 +59,47 @@
 
 
 
+/* Custom avatar for .yuihara */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
 
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] 
+{
+    content: url('https://i.imgur.com/WHb13Hy.gif');
+}
 
 
 /* Custom badge for Wx78Main */
