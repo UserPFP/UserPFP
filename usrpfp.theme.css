@@ -58,6 +58,50 @@
 }
 
 
+/* Custom avatar for Deleted User */
+.wrapper-3Un6-K:hover [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.wrapper-3Un6-K [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.contents-2MsGLg:hover [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.contents-2MsGLg [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.wrapper-1VLyxH [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.layout-1qmrhw [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.container-YkUktl:hover [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.container-YkUktl [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.avatar-1HDIsL [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+.participant-1l6khj [src^="https://discord.com/assets/6f26ddd1bf59740c536d2274bb834a05.png"] 
+{
+    content: url('https://i.ibb.co/WxX5dTL/USRPFP-Reborn.png');
+}
+
+
+
 
 /* Custom avatar for .yuihara */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/345052005976506378/"] {
