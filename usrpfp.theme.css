@@ -58,6 +58,63 @@
 }
 
 
+
+
+/* Custom badge for Wx78Main */
+#app-mount [aria-label="wx78main"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="wx78main"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="wx78main"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif) center / 100% 100%;
+}
+
+/* Custom avatar for WX78Main */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] {
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/683715697079091286/"] 
+{
+    content: url('https://i.ibb.co/P9C7zqF/ezgif-2-f0f0477890.gif');
+}
+
+
+
+
 /* Custom badge for BETA Zeraora Bot */
 #app-mount [aria-label="BETA Zeraora Bot"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="BETA Zeraora Bot"] .profileBadges-2pItdR::before,
