@@ -14,7 +14,7 @@ Maximum gif size is set to **12MB** !
 
 ### 1. for [Vencord](https://vencord.dev) user, Use the theme
 
-Enter https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/usrpfp.theme.css in the themes directory in settings.
+Enter https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/src/dist/source.css in the themes directory in settings.
 
 This will import USERPFP for everyone can see your custom pfp and you see custom pfps of everyone
 ### 2. for [Replugged](https://replugged.dev/) user, Clone the repo
