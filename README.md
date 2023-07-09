@@ -4,9 +4,9 @@
 <p align="center"><img height="350" align="center" src="https://cdn.discordapp.com/attachments/941739137038417940/989131870933508096/lv_0_20220622133603.gif"></p>
 
 ## Request your own pfp !
-* Join USRPFP Reborn https://discord.gg/BT54cvEvnY, go in this channel https://discord.com/channels/907688780394291260/1127197385345474610 and wait to be accepted.
+* Join USRPFP Reborn https://discord.gg/BT54cvEvnY, read the rules and then go in this channel https://discord.com/channels/907688780394291260/1127197385345474610 and send your avatar (link/attachment) and wait to be accepted.
 
-**All requests are accepted/denied manually** by Pikai. You should **wait a litle moment** before your PFP **is accepted and added.**
+**All requests are accepted/denied manually** by FoxStorm1. You should **wait a little moment** before your PFP **is accepted and added.**
 
 Maximum gif size is set to **12MB** !
 
