@@ -62,7 +62,60 @@
 
 
 
+/* Custom badge for Midori */
+#app-mount [aria-label="Midori"] .badgeList-2aoHPw::before,
+#app-mount [aria-label="Midori"] .profileBadges-2pItdR::before,
+#app-mount [aria-label="Midori"] .profileBadge22-3GAYRy::before,
+#app-mount [aria-label="Midori"] .profileBadge-12r2Nm::before,
+#app-mount [aria-label="Midori"] .profileBadge24-sH1efV::before,
+#app-mount [aria-label="Midori"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.imgur.com/S49qWoV.png) center / 100% 100%;
+}
 
+/* Custom avatar for Midori */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] {
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/964563933774098462/"] 
+{
+    content: url('https://i.ibb.co/0yQwpmg/discord-avatar-128-3-S6-SJ.gif');
+}
 
 
 
