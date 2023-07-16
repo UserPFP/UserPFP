@@ -1,7 +1,7 @@
 <h1 align="center">USERPFP REBORN</h1>
 <p align="center">A theme for having custom Profile Pictures - Continuation by FoxStorm1!</p>
 
-<p align="center"><img height="350" align="center" src="https://lh6.googleusercontent.com/MP-GHx5DxQqU8chtiscoAWPlUfhRyFWSJKcMW6lEL_fmcCkl4pBThFU49LXTPub_tcC52ugCD2Ktw8OLbQCOpo0=w1280"></p>
+<p align="center"><img height="350" align="center" src="[https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png"></p>
 
 ## Request your own pfp !
 * Join USRPFP Reborn https://discord.gg/BT54cvEvnY, read the rules and then go in this channel https://discord.com/channels/907688780394291260/1127197385345474610 and send your avatar (link/attachment) and wait to be accepted.
