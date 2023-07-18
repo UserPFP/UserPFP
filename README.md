@@ -4,7 +4,7 @@
 <p align="center"><img height="350" align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png"></p>
 
 ## Request your own pfp !
-* Join USRPFP Reborn https://discord.gg/BT54cvEvnY, read the rules and then go in this channel https://discord.com/channels/907688780394291260/1127197385345474610 and send your avatar (link/attachment) and wait to be accepted.
+* Join USRPFP Reborn https://discord.gg/BT54cvEvnY, read the rules and then go in this channel https://discord.com/channels/1129784704267210844/1130164302532317316 and send your avatar (link/attachment) and wait to be accepted.
 
 **All requests are accepted/denied manually** by FoxStorm1. You should **wait a little moment** before your PFP **is accepted and added.**
 
