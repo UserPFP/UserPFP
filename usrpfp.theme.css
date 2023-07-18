@@ -119,6 +119,49 @@
 
 
 
+/* Custom avatar for GhostIsBeHere */
+.wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.wrapper-3Un6-K [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.contents-2MsGLg:hover [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.contents-2MsGLg [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.wrapper-1VLyxH [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.layout-1qmrhw [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.container-YkUktl:hover [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.container-YkUktl [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.avatar-1HDIsL [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] {
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+.participant-1l6khj [src^="https://cdn.discordapp.com/avatars/518223653134139403/"] 
+{
+    content: url('https://i.ibb.co/hmSW3k0/Ghost-Compat.gif');
+}
+
+
 /* Custom badge for dragonclaw08mm */
 #app-mount [aria-label="dragonclaw08mm"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="dragonclaw08mm"] .profileBadges-2pItdR::before,
