@@ -66,6 +66,13 @@
 {
     content: url('https://i.imgur.com/l7hlm5P.gif');
 }
+#app-mount [aria-label=" USRPFP Reborn"] .wrapper-3kah-n::before,
+#app-mount [aria-label=" USRPFP Reborn"] .selected-1Drb7Z::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/82QGTc6/iTN9OHM.png) center / 100% 100%;
+}
 
 
 
