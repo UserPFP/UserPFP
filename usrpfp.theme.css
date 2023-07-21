@@ -61,6 +61,14 @@
 }
 
 
+/* Custom Server Icon For USRPFP if plugin working */
+.icon-3AqZ2e [src^="https://cdn.discordapp.com/icons/1129784704267210844/"] 
+{
+    content: url('https://i.imgur.com/l7hlm5P.gif');
+}
+
+
+
 
 /* Custom badge for Midori */
 #app-mount [aria-label="Midori"] .badgeList-2aoHPw::before,
