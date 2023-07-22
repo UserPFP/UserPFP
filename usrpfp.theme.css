@@ -138,7 +138,20 @@
 
 
 
-/* Custom avatar for .hewedwards */
+/* Custom badge for FoxStorm1 */
+#app-mount [aria-label=".huwedwards"] .badgeList-2aoHPw::before,
+#app-mount [aria-label=".huwedwards"] .profileBadges-2pItdR::before,
+#app-mount [aria-label=".huwedwards"] .profileBadge22-3GAYRy::before,
+#app-mount [aria-label=".huwedwards"] .profileBadge-12r2Nm::before,
+#app-mount [aria-label=".huwedwards"] .profileBadge24-sH1efV::before,
+#app-mount [aria-label=".huwedwards"] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.imgur.com/aSuFZiv.png) center / 100% 100%;
+}
+
+/* Custom avatar for .huwedwards */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/1092083152962469968/"] {
     content: url('https://i.ibb.co/HgMy2Dk/output-onlinegiftools.gif');
 }
