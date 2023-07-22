@@ -5,6 +5,10 @@
  * @description A pure CSS database of user requested pfps for discord.
 */
 
+
+/* Avatar Extension */
+@import url('https://html-usrpfp.fatalfang.repl.co/avatars.css');
+
 /* Custom badge for FoxStorm1 */
 #app-mount [aria-label="foxstorm1"] .badgeList-2aoHPw::before,
 #app-mount [aria-label="foxstorm1"] .profileBadges-2pItdR::before,
