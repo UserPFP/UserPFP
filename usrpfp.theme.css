@@ -138,7 +138,7 @@
 
 
 
-/* Custom badge for FoxStorm1 */
+/* Custom badge for .huwedwards */
 #app-mount [aria-label=".huwedwards"] .badgeList-2aoHPw::before,
 #app-mount [aria-label=".huwedwards"] .profileBadges-2pItdR::before,
 #app-mount [aria-label=".huwedwards"] .profileBadge22-3GAYRy::before,
@@ -189,6 +189,11 @@
 }
 
 .participant-1l6khj [src^="https://cdn.discordapp.com/avatars/1092083152962469968/"] 
+{
+    content: url('https://i.ibb.co/HgMy2Dk/output-onlinegiftools.gif');
+}
+
+.icon-3AqZ2e [src^="https://cdn.discordapp.com/avatars/1092083152962469968/"] 
 {
     content: url('https://i.ibb.co/HgMy2Dk/output-onlinegiftools.gif');
 }
