@@ -23,6 +23,20 @@
   background: url(https://i.ibb.co/r0CjXq1/ezgif-3-ef7113dc6f.png) center / 100% 100%;
 }
 
+/* Custom badge for mat.rix. */
+#app-mount [aria-label="mat.rix."] .badgeList-2aoHPw::before,
+#app-mount [aria-label="mat.rix."] .profileBadges-2pItdR::before,
+#app-mount [aria-label="mat.rix."] .profileBadge22-3GAYRy::before,
+#app-mount [aria-label="mat.rix."] .profileBadge-12r2Nm::before,
+#app-mount [aria-label="mat.rix."] .profileBadge24-sH1efV::before,
+#app-mount [aria-label="mat.rix."] .badges-XRnWAp::before {
+  content: "";
+  width: 22px;
+  height: 22px;
+  background: url(https://i.ibb.co/Twwktdq/Cropped-Image.png) center / 100% 100%;
+}
+
+
 /* Custom avatar for Foxstorm1 */
 .wrapper-3Un6-K:hover [src^="https://cdn.discordapp.com/avatars/789872551731527690/"] {
     content: url('https://randomfox.tk/random_fox.php?_=1');
