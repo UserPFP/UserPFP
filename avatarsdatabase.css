@@ -297,3 +297,8 @@ url('https://i.ibb.co/qkSKzZB/ezgif-com-crop.gif')
 [src^="https://cdn.discordapp.com/avatars/500212086765518858/"] {
     content: url("https://i.ibb.co/djVGPbC/f2oRRN4.gif");
 }
+
+/* Custom avatar for 406084422308331522 */
+[src^="https://cdn.discordapp.com/avatars/406084422308331522/"] {
+    content: url('https://i.ibb.co/R9094gf/po62g-G9egz46-TFZQ.gif');
+}
