@@ -1,41 +1,50 @@
-<h1 align="center">USERPFP REBORN</h1>
-<p align="center">A theme for having custom Profile Pictures - Continuation by FoxStorm1!</p>
+<h1 align="center">
+    USERPFP REBORN
+</h1>
+<p align="center">
+    A theme for having custom Profile Pictures - Continuation by FoxStorm1!
+    <br/>
+    <img height="150" align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
+</p>
 
-<p align="center"><img height="350" align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png"></p>
+## How to request a pfp
 
-## Request your own pfp !
-* Join USRPFP Reborn https://discord.gg/BT54cvEvnY, read the rules and then go in this channel https://discord.com/channels/1129784704267210844/1130164302532317316 and send your avatar (link/attachment) and wait to be accepted.
+- Join [USRPFP Reborn](https://discord.gg/3VxcnBKcF6), read the rules and then go to the [#pfp-requests channel](https://canary.discord.com/channels/1129784704267210844/1130090223783641088) and send your avatar (link/attachment) and wait to be accepted.
 
-**All requests are accepted/denied manually** by FoxStorm1. You should **wait a little moment** before your PFP **is accepted and added.**
+- **All requests are accepted/denied manually** by FoxStorm1. You should **wait a little moment** before your PFP **is accepted and added.**
 
-Maximum gif size is set to **12MB** !
+- Maximum file size is **12MB**!
 
-## How to see your pfp (after requested it !)
+## How to use this theme
 
-### 1. for [Vencord](https://vencord.dev) user, Use the theme
+### 1. [Vencord](https://vencord.dev)
 
-Enter https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/src/dist/source.css in the themes directory in settings.
+Same as [Other client mods/Quick CSS](#3-other-client-modsquick-css)
 
-This will import USERPFP for everyone can see your custom pfp and you see custom pfps of everyone
-### 2. for [Replugged](https://replugged.dev/) user, Clone the repo
+### 2. [Replugged](https://replugged.dev/)
 
-Clone the repo with these commands (using [git](https://git-scm.com/downloads))
+Clone the repo using [git](https://docs.github.com/en/get-started/quickstart/set-up-git)
 
 ```bash
- cd replugged\src\Powercord\themes && git clone https://github.com/Yeetov/USRPFP-Reborn
- ```
+cd path_to_replugged/src/Powercord/themes && git clone https://github.com/Yeetov/USRPFP-Reborn
+```
 
-### 3. Use it as a snippet
+### 3. Other client mods/Quick CSS
 
-Add this CSS code in your custom-css setting.
+Add this snippet to your Quick CSS:
 
 ```css
 @import url("https://github.com/Yeetov/USRPFP-Reborn/raw/main/src/dist/source.css");
 ```
 
-### 4. UserPFP for Android
-Only available in [Vencord Android](https://github.com/Vencord/Android/releases)
-same steps as Vencord
+### 4. USRPFP for Android
 
-### 5. [UserBG](https://github.com/Discord-Custom-Covers/usrbg)
-If you also want a custom banner without nitro you have to check [this](https://github.com/Discord-Custom-Covers/usrbg).
+Currently only available for [Vencord Android](https://github.com/Vencord/Android/releases) (same steps as [Vencord](#1-vencord))
+
+## Banner alternative
+
+A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions the same as USRPFP, but for avatars
+
+<p align="center">
+    <i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i>
+</p>

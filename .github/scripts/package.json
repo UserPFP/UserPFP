@@ -1,0 +1,12 @@
+{
+  "name": "scripts",
+  "private": true,
+  "scripts": {
+    "convert": "node convert/index.mjs",
+    "generate": "node generate/index.mjs",
+    "generate:debug": "node generate/index.mjs --debug"
+  },
+  "dependencies": {
+    "uglifycss": "^0.0.29"
+  }
+}

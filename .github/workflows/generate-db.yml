@@ -1,0 +1,52 @@
+name: Generate Database
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/generate-db.yml"
+      - ".github/scripts/generate/**/*.*"
+      - "db/data.json"
+      - "db/template.css"
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18.x
+
+      - name: Setup PNPM
+        working-directory: .github/scripts
+        run: |
+          npm i -g pnpm
+          pnpm i
+
+      - name: Run generate script
+        working-directory: .github/scripts
+        run: pnpm run generate
+
+      - name: Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add db/dist.css
+          git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
+          git push

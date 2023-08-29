@@ -1,0 +1,18 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  uglifycss:
+    specifier: ^0.0.29
+    version: 0.0.29
+
+packages:
+
+  /uglifycss@0.0.29:
+    resolution: {integrity: sha512-J2SQ2QLjiknNGbNdScaNZsXgmMGI0kYNrXaDlr4obnPW9ni1jljb1NeEVWAiTgZ8z+EBWP2ozfT9vpy03rjlMQ==}
+    engines: {node: '>=6.4.0'}
+    hasBin: true
+    dev: false
