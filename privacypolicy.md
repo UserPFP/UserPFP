@@ -30,7 +30,5 @@
 
 <p>If you have any questions about this Privacy Policy, you can contact us through Discord by reaching out to FoxStorm1 (Owner of USRPFP Reborn).</p>
 
-<p style="text-align:center;"><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
-
 </body>
 </html>
