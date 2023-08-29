@@ -14,7 +14,7 @@
 <h2>How to Request a Profile Picture (PFP)</h2>
 
 <ol>
-    <li>Join the <a href="https://discord.gg/3VxcnBKcF6">USRPFP Reborn Discord Server</a>.</li>
+    <li>Join the <a href="https://dsc.gg/USRPFP">USRPFP Reborn Discord Server</a>.</li>
     <li>Review the server rules.</li>
     <li>Go to the <a href="https://discord.com/channels/1129784704267210844/1130090223783641088">#pfp-requests channel</a> and submit your avatar (link/attachment).</li>
     <li>Wait for acceptance.</li>
