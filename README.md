@@ -34,7 +34,7 @@ cd path_to_replugged/src/Powercord/themes && git clone https://github.com/Yeetov
 Add this snippet to your Quick CSS:
 
 ```css
-@import url("https://github.com/Yeetov/USRPFP-Reborn/raw/main/src/dist/source.css");
+@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
 ```
 
 ### 4. USRPFP for Android
@@ -43,7 +43,7 @@ Currently only available for [Vencord Android](https://github.com/Vencord/Androi
 
 ## Banner alternative
 
-A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions the same as USRPFP, but for avatars
+A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions the same as USRPFP, but for banners
 
 <p align="center">
     <i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i>
