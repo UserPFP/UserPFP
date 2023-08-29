@@ -4,20 +4,33 @@
 </head>
 <body>
 
-<h1 style="text-align:center;">USERPFP REBORN</h1>
-<p style="text-align:center;">
-    A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and Nexpid!
-    <br>
-    <img height="150" style="align:center;" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
-</p>
+<h2>Privacy Policy</h2>
 
-<h2>How to Request a Profile Picture (PFP)</h2>
+<p>This Privacy Policy explains how USERPFP REBORN ("we," "us," "our," or the "Project") collects, uses, and discloses information about users of the service. By using our service, you consent to the practices described in this Privacy Policy.</p>
 
-<ol>
-    <li>Join the <a href="https://dsc.gg/USRPFP">USRPFP Reborn Discord Server</a>.</li>
-    <li>Review the server rules.</li>
-    <li>Go to the <a href="https://discord.com/channels/1129784704267210844/1130090223783641088">#pfp-requests channel</a> and submit your avatar (link/attachment).</li>
-    <li>Wait for acceptance.</li>
-</ol>
+<h3>Information Collection and Use</h3>
 
-<p>All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.</p
+<p>When you request a custom Profile Picture (PFP) using USERPFP REBORN, we may collect and store the avatar you provide for the purpose of processing and fulfilling your request. By submitting your avatar, you grant us permission to display your avatar on the website <a href="https://sites.google.com/view/foxstorm1/projects/">https://sites.google.com/view/foxstorm1/projects/</a> and any subdomains under this parent URL. This includes but is not limited to displaying the avatar alongside your request details.</p>
+
+<p>We may also host the avatar files on third-party image hosting platforms, including imgbb and Imgur. Additionally, we may store your avatar information in our database, with a file name that may include "USRPFP" to indicate the source of the request.</p>
+
+<h3>Information Sharing and Disclosure</h3>
+
+<p>We will not share, sell, or otherwise disclose your personal information without your consent, except as described in this Privacy Policy or required by law.</p>
+
+<h3>Data Security</h3>
+
+<p>We take reasonable measures to help protect the information collected through our service. However, please note that no method of transmission or storage is completely secure.</p>
+
+<h3>Changes to this Privacy Policy</h3>
+
+<p>We may update this Privacy Policy to reflect changes to our practices or for other operational, legal, or regulatory reasons. Your continued use of the service after any changes signifies your consent to the updated Privacy Policy.</p>
+
+<h3>Contact Us</h3>
+
+<p>If you have any questions about this Privacy Policy, you can contact us through Discord by reaching out to FoxStorm1 (Owner of USRPFP Reborn).</p>
+
+<p style="text-align:center;"><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
+
+</body>
+</html>
