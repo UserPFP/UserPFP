@@ -25,7 +25,7 @@
 <h2 style="display:flex; align-items:center;">1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="50"></h2>
 <p>Follow the instructions for <a href="#quick-css">Other client mods/Quick CSS</a>.</p>
 
-<h2 style="display:flex; align-items:center;">2. Replugged <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height="50"></h2>
+<h2 style="display:flex; align-items:center;">2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height="50"></h2>
 <p>To install for Replugged:
 <ol>
     <li>Clone the repo using <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">git</a>.</li>
@@ -47,7 +47,7 @@
 
 <p>A predecessor to USRPFP is <a href="https://github.com/Discord-Custom-Covers/usrbg">USRBG</a>, which functions similarly but for banners.</p>
 
-<p style="text-align:center;"><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
+<p style="text-align:center;"><img src="https://camo.githubusercontent.com/68decd2d5b4c237a97940c9012474ce82e6ed3eee65b3950032475ce82192c03/68747470733a2f2f692e6962622e636f2f6d62514a534b6d2f696d6167652d323032332d30372d31362d3131323131353837322e706e67" alt="USRPFP Logo" height="200"><br><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
 
 </body>
 </html>
