@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>USERPFP REBORN</title>
 </head>
 <body>
 
@@ -23,15 +22,10 @@
 
 <p>All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.</p>
 
-<h2>Applying the Theme</h2>
+<h2 style="display:flex; align-items:center;">1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="50"></h2>
+<p>Follow the instructions for <a href="#quick-css">Other client mods/Quick CSS</a>.</p>
 
-<h3><a href="https://vencord.dev">1. Vencord</a></h3>
-<p>Follow the instructions for <a href="#quick-css">Other client mods/Quick CSS</a>.
-<br>
-<img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="100">
-</p>
-
-<h3><a href="https://replugged.dev/">2. Replugged</a></h3>
+<h2 style="display:flex; align-items:center;">2. Replugged <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height="50"></h2>
 <p>To install for Replugged:
 <ol>
     <li>Clone the repo using <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">git</a>.</li>
@@ -41,16 +35,13 @@
 </ol>
 </p>
 
-<h3 id="quick-css">3. Other Client Mods/Quick CSS</h3>
+<h2 id="quick-css" style="display:flex; align-items:center;">3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="50"></h2>
 <p>Add the following snippet to your Quick CSS:
 <pre><code>@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");</code></pre>
 </p>
 
-<h3>4. USRPFP for Android</h3>
-<p>Currently available only for <a href="https://vendetta.vercel.app/">Vendetta</a>.
-<br>
-<img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height="100">
-</p>
+<h2 style="display:flex; align-items:center;">4. USRPFP for Android <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height="50"></h2>
+<p>Currently available only for <a href="https://vendetta.vercel.app/">Vendetta</a>.</p>
 
 <h2>Banner Alternative</h2>
 
