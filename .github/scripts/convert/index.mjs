@@ -1,5 +1,6 @@
 import { readFile, writeFile } from "fs/promises";
 import { join } from "path";
+import { format } from "prettier";
 
 console.time("Done");
 
@@ -28,12 +29,13 @@ for (let i = 0; i < avis.length; i++) {
 
 await writeFile(
   join("../../", "db", "data.json"),
-  JSON.stringify(
-    {
+  format(
+    JSON.stringify({
       avatars,
       badges,
-    },
-    undefined,
-    4
+    }),
+    {
+      parser: "json",
+    }
   )
 );

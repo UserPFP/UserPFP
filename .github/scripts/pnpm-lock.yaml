@@ -5,11 +5,20 @@ settings:
   excludeLinksFromLockfile: false
 
 dependencies:
+  prettier:
+    specifier: ^3.0.2
+    version: 3.0.2
   uglifycss:
     specifier: ^0.0.29
     version: 0.0.29
 
 packages:
+
+  /prettier@3.0.2:
+    resolution: {integrity: sha512-o2YR9qtniXvwEZlOKbveKfDQVyqxbEIWn48Z8m3ZJjBjcCmUy3xZGIv+7AkaeuaTr6yPXJjwv07ZWlsWbEy1rQ==}
+    engines: {node: '>=14'}
+    hasBin: true
+    dev: false
 
   /uglifycss@0.0.29:
     resolution: {integrity: sha512-J2SQ2QLjiknNGbNdScaNZsXgmMGI0kYNrXaDlr4obnPW9ni1jljb1NeEVWAiTgZ8z+EBWP2ozfT9vpy03rjlMQ==}
