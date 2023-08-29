@@ -2,18 +2,17 @@
     USERPFP REBORN
 </h1>
 <p align="center">
-    A theme for having custom Profile Pictures - Continuation by FoxStorm1!
+    A theme for having custom Profile Pictures - Continuation by FoxStorm1 and Nexpid!
     <br/>
     <img height="150" align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
 </p>
 
 ## How to request a pfp
 
-- Join [USRPFP Reborn](https://discord.gg/3VxcnBKcF6), read the rules and then go to the [#pfp-requests channel](https://canary.discord.com/channels/1129784704267210844/1130090223783641088) and send your avatar (link/attachment) and wait to be accepted.
+- Join [USRPFP Reborn](https://discord.gg/3VxcnBKcF6), read the rules and then go to the [#pfp-requests channel](https://discord.com/channels/1129784704267210844/1130090223783641088) and send your avatar (link/attachment) and wait to be accepted.
 
-- **All requests are accepted/denied manually** by FoxStorm1. You should **wait a little moment** before your PFP **is accepted and added.**
+- **All requests are accepted/denied manually** by FoxStorm1 and Astremia. You should **wait a little moment** before your PFP **is accepted and added.**
 
-- Maximum file size is **12MB**!
 
 ## How to use this theme
 
@@ -39,7 +38,7 @@ Add this snippet to your Quick CSS:
 
 ### 4. USRPFP for Android
 
-Currently only available for [Vencord Android](https://github.com/Vencord/Android/releases) (same steps as [Vencord](#1-vencord))
+Currently only available for [Vendetta]((https://vendetta.vercel.app/))
 
 ## Banner alternative
 
