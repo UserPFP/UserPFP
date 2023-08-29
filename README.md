@@ -47,7 +47,7 @@
 
 <p>A predecessor to USRPFP is <a href="https://github.com/Discord-Custom-Covers/usrbg">USRBG</a>, which functions similarly but for banners.</p>
 
-<p style="text-align:center;"><img src="https://camo.githubusercontent.com/68decd2d5b4c237a97940c9012474ce82e6ed3eee65b3950032475ce82192c03/68747470733a2f2f692e6962622e636f2f6d62514a534b6d2f696d6167652d323032332d30372d31362d3131323131353837322e706e67" alt="USRPFP Logo" height="200"><br><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
+<p style="text-align:center;"><img src="https://camo.githubusercontent.com/c898c58f39e46d5178698e0619b5d3722ef1ea6b007d07f92f0ced63cda2e57f/68747470733a2f2f692e696d6775722e636f6d2f48614657384a362e706e67" alt="USRPFP Logo" height="200"><br><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
 
 </body>
 </html>
