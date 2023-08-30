@@ -47,6 +47,12 @@
 
 <p>A predecessor to USRPFP is <a href="https://github.com/Discord-Custom-Covers/usrbg">USRBG</a>, which functions similarly but for banners.</p>
 
+<h2>Development Team</h2>
+<p>FoxStorm1, Nexpid, Coolesding</p>
+
+<h2>Approval Team</h2>
+<p>FoxStorm1, Astremia</p>
+
 <p style="text-align:center;"><img src="https://camo.githubusercontent.com/c898c58f39e46d5178698e0619b5d3722ef1ea6b007d07f92f0ced63cda2e57f/68747470733a2f2f692e696d6775722e636f6d2f48614657384a362e706e67" alt="USRPFP Logo" height="200"><br><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
 
 </body>
