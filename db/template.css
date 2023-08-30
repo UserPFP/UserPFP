@@ -1,22 +1,21 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
-[src^="https://cdn.discordapp.com/avatars/{id}/"]
-{
-  content: url("{img}");
+[style*="avatars/{id}/"],
+[src*="avatars/{id}/"]{
+  content: url({img});
+  background-image: url({img})!important;
 }
 /* AVATAR-TEMPLATE-END */
 
 /* BADGE-TEMPLATE-BEGIN */
 /* Custom badge for {username} */
-#app-mount [aria-label="{username}"] .badgeList-2aoHPw::before,
-#app-mount [aria-label="{username}"] .profileBadges-2pItdR::before,
-#app-mount [aria-label="{username}"] .profileBadge22-3GAYRy::before,
-#app-mount [aria-label="{username}"] .profileBadge-12r2Nm::before,
-#app-mount [aria-label="{username}"] .profileBadge24-sH1efV::before,
-#app-mount [aria-label="{username}"] .badges-XRnWAp::before {
+.header-S26rhB:has([aria-label*="{username}"])>.headerTop-1PNKck>.badgeList-2aoHPw::before,
+[aria-label="{username}"]>:first-child>:first-child>.profileBadges-2pItdR::before,
+.badgeList-b3Ajmk:before,
+.profileCustomizationPreview-3zZw6E>:first-child>.profileBadges-2pItdR:before{
   content: "";
   width: 22px;
   height: 22px;
-  background: url("{img}") center / 100% 100%;
+  background: url({img}) center / 100% 100%;
 }
 /* BADGE-TEMPLATE-END */
