@@ -1,9 +1,9 @@
 /**
  * @name USRPFP
  * @author FoxStorm1, Pikai
- * @version 1.0.0
+ * @version 1.0.1
  * @description A pure CSS database of user requested pfps for discord.
 */
 
 /* Avatar Import */
-@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
+@import url(//raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css);
