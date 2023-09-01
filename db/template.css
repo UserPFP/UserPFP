@@ -11,8 +11,8 @@
 /* Custom badge for {username} */
 .header-S26rhB:has([aria-label*="{username}"])>.headerTop-1PNKck>.badgeList-2aoHPw::before,
 [aria-label="{username}"]>:first-child>:first-child>.profileBadges-2pItdR::before,
-.badgeList-b3Ajmk:before,
-.profileCustomizationPreview-3zZw6E>:first-child>.profileBadges-2pItdR:before{
+.userInfo-regn9W:has([aria-label*="{username}"])>:nth-child(2)>[role="group"]:before,
+.baseLayout-1_9QRm:has([placeholder*="{username}"])>:last-child>:last-child>:last-child>[aria-label="User Badges"]:before{
   content: "";
   width: 22px;
   height: 22px;
