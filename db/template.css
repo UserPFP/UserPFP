@@ -19,3 +19,9 @@
   background: url({img}) center / 100% 100%;
 }
 /* BADGE-TEMPLATE-END */
+/* Fix some pfps being weird af */
+[style*="avatars"],
+[src*="avatars"] {
+  background-repeat: no-repeat;
+  background-size: contain;
+}
