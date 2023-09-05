@@ -1,7 +1,7 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
-[style*="{id}"],
-[src*="{id}"]{
+[style*="avatars/{id}"],
+[src*="avatars/{id}"]{
   content: url({img});
   background-image: url({img})!important;
 }
