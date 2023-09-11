@@ -18,11 +18,5 @@
   height: 22px;
   background: url({img}) center / 100% 100%;
 }
-/* Fix some pfps being weird af (nexx make its own region for one time code below the badge template end you fish) */
-[style*="avatars"],
-[src*="avatars"] {
-  background-repeat: no-repeat;
-  background-size: contain;
-}
 /* BADGE-TEMPLATE-END */
 
