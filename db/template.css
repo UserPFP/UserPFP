@@ -19,27 +19,3 @@
   background: url({img}) center / 100% 100%;
 }
 /* BADGE-TEMPLATE-END */
-.avatar-31d8He {
-  background-repeat: no-repeat;
-  background-size: contain;
-}
-foreignObject:is([width="120"])>div>.avatar-31d8He {
-  height: 120px;
-  width: 120px;
-}
-foreignObject:is([width="80"])>div>.avatar-31d8He {
-  height: 80px;
-  width: 80px;
-}
-foreignObject:is([width="32"])>div>.avatar-31d8He {
-  width: 32px;
-  height: 32px;
-}
-foreignObject:is([width="24"])>div>.avatar-31d8He {
-  width: 24px;
-  height: 24px;
-}
-foreignObject:is([width="16"])>div>.avatar-31d8He {
-  width: 16px;
-  height: 16px;
-}
