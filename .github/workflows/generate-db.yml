@@ -21,9 +21,11 @@ concurrency:
 jobs:
   generate:
     runs-on: ubuntu-latest
-
     permissions:
       contents: write
+    strategy:
+      matrix:
+        retry-max: [3]  # Set the maximum number of retries here
 
     steps:
       - uses: actions/checkout@v3
