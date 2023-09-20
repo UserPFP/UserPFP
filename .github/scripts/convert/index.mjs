@@ -23,8 +23,8 @@ for (let i = 0; i < avis.length; i++) {
 const badges = {};
 for (let i = 0; i < avis.length; i++) {
   const l = avis[i];
-  const username = l.match(badgeMatcher)?.[1];
-  if (username) badges[username] = avis[i + 10].match(imageMatcher)[1];
+  const bid = l.match(badgeMatcher)?.[1];
+  if (bid) badges[bid] = avis[i + 10].match(imageMatcher)[1];
 }
 
 await writeFile(

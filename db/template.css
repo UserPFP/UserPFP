@@ -1,18 +1,18 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
-[style*="avatars/{id}"],
-[src*="avatars/{id}"]{
+[style^="https://cdn.discordapp.com/avatars/{id}"],
+[src^="https://cdn.discordapp.com/avatars/{id}"]{
   content: url({img});
   background-image: url({img})!important;
 }
 /* AVATAR-TEMPLATE-END */
 
 /* BADGE-TEMPLATE-BEGIN */
-/* Custom badge for {username} */
-.header-S26rhB:has([aria-label*="{username}"])>.headerTop-1PNKck>.badgeList-2aoHPw::before,
-[aria-label="{username}"]>:first-child>:first-child>.profileBadges-2pItdR::before,
-.userInfo-regn9W:has([aria-label*="{username}"])>:nth-child(2)>[role="group"]:before,
-.baseLayout-1_9QRm:has([placeholder*="{username}"])>:last-child>:last-child>:last-child>[role="group"]:before{
+/* Custom badge for {bid} (bid = badge ID) */
+.userPopoutInner-nv9Y92:has(.avatar-31d8He:is([src^="https://cdn.discordapp.com/avatars/{bid}"]))>.topSection-13QKHs>header>.header-S26rhB>.headerTop-1PNKck>.container-1gYwHN:before,
+.userPopoutInner-nv9Y92:has(.avatar-31d8He:is([src^="https://cdn.discordapp.com/avatars/{bid}"]))>.container-1gYwHN:before,
+.userInfo-regn9W:has([src^="https://cdn.discordapp.com/avatars/{bid}"])>.wrapper-3Un6-K+div>.container-1gYwHN:before,
+.userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr:is([style*="{bid}"]))>.container-1gYwHN:before{
   content: "";
   width: 22px;
   height: 22px;

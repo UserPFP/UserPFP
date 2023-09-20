@@ -41,9 +41,9 @@ const dist = [];
 for (const [id, img] of Object.entries(data.avatars)) {
   dist.push(templates.avatar.replace(/{id}/g, id).replace(/{img}/g, img));
 }
-for (const [username, img] of Object.entries(data.badges)) {
+for (const [bid, img] of Object.entries(data.badges)) {
   dist.push(
-    templates.badge.replace(/{username}/g, username).replace(/{img}/g, img)
+    templates.badge.replace(/{bid}/g, bid).replace(/{img}/g, img)
   );
 }
 
