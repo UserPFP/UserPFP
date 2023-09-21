@@ -1,7 +1,8 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
 [style^="https://cdn.discordapp.com/avatars/{id}"],
-[src^="https://cdn.discordapp.com/avatars/{id}"]{
+[src^="https://cdn.discordapp.com/avatars/{id}"],
+.userAvatar-3Hwf1F:is([style*="{id}]) {
   content: url({img});
   background-image: url({img})!important;
 }
