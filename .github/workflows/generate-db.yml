@@ -7,7 +7,7 @@ on:
     paths:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
-      - "db/data.json"
+      - "db/datadesktop.json"
       - "db/template.css"
   pull_request:
     branches:

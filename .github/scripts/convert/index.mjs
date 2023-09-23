@@ -28,7 +28,7 @@ for (let i = 0; i < avis.length; i++) {
 }
 
 await writeFile(
-  join("../../", "db", "data.json"),
+  join("../../", "db", "datadesktop.json"),
   format(
     JSON.stringify({
       avatars,
