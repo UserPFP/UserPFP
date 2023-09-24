@@ -52,19 +52,19 @@ jobs:
           AVATARS_CSS_CONTENT=""
 
           # Loop through each badge entry in the JSON data
-          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
-            BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
+for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
+  BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
 
-            # Create CSS snippet for the badge
-            BADGES_CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
-.userPopoutInner-nv9Y92:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .container-1gYwHN:before,
-.userInfo-regn9W:has([src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .wrapper-3Un6-K + div > .container-1gYwHN:before,
-.userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr[style*=\"$DISCORD_ID\"]) > .container-1gYwHN:before {
-  content: \"\";
-  width: 22px;
-  height: 22px;
-  background: url($BADGE_URL) center / 100% 100%;
-}"
+  # Create CSS snippet for the badge
+  BADGES_CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
+  .userPopoutInner-nv9Y92:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/'$DISCORD_ID'\"]) > .container-1gYwHN:before,
+  .userInfo-regn9W:has([src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .wrapper-3Un6-K + div > .container-1gYwHN:before,
+  .userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr[style*=\"$DISCORD_ID\"]) > .container-1gYwHN:before {
+    content: \"\";
+    width: 22px;
+    height: 22px;
+    background: url($BADGE_URL) center / 100% 100%;
+  }"
 
             # Append the badge CSS snippet to the badge CSS content
             BADGES_CSS_CONTENT="${BADGES_CSS_CONTENT}\n\n$BADGES_CSS_SNIPPET"
