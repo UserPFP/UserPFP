@@ -41,6 +41,7 @@ jobs:
           # Define the paths to your JSON and CSS files
           JSON_FILE="db/datadesktop.json"
           CSS_FILE="db/dist.css"
+          TEMPLATE_FILE="db/template.css"
 
           # Read the JSON data into a variable
           JSON_DATA=$(cat "$JSON_FILE")
@@ -52,19 +53,11 @@ jobs:
           AVATARS_CSS_CONTENT=""
 
           # Loop through each badge entry in the JSON data
-for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
-  BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
+          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
+            BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
 
-  # Create CSS snippet for the badge
-  BADGES_CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
-  .userPopoutInner-nv9Y92:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/'$DISCORD_ID'\"]) > .container-1gYwHN:before,
-  .userInfo-regn9W:has([src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .wrapper-3Un6-K + div > .container-1gYwHN:before,
-  .userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr[style*=\"$DISCORD_ID\"]) > .container-1gYwHN:before {
-    content: \"\";
-    width: 22px;
-    height: 22px;
-    background: url($BADGE_URL) center / 100% 100%;
-  }"
+            # Create CSS snippet for the badge using the template
+            BADGES_CSS_SNIPPET=$(cat "$TEMPLATE_FILE" | sed "s/{id}/$DISCORD_ID/g; s/{img}/$BADGE_URL/g")
 
             # Append the badge CSS snippet to the badge CSS content
             BADGES_CSS_CONTENT="${BADGES_CSS_CONTENT}\n\n$BADGES_CSS_SNIPPET"
@@ -74,8 +67,8 @@ for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
           for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.avatars | keys[]'); do
             AVATAR_URL=$(echo "$JSON_DATA" | jq -r ".avatars[\"$DISCORD_ID\"]")
 
-            # Create CSS snippet for the avatar (pfp)
-            AVATARS_CSS_SNIPPET="[style^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],.userAvatar-3Hwf1F:is([style*=\"$DISCORD_ID\"]) {content: url($AVATAR_URL); background-image: url($AVATAR_URL) !important;}"
+            # Create CSS snippet for the avatar (pfp) using the template
+            AVATARS_CSS_SNIPPET=$(cat "$TEMPLATE_FILE" | sed "s/{id}/$DISCORD_ID/g; s/{img}/$AVATAR_URL/g")
 
             # Append the avatar (pfp) CSS snippet to the avatar (pfp) CSS content
             AVATARS_CSS_CONTENT="${AVATARS_CSS_CONTENT}\n\n$AVATARS_CSS_SNIPPET"
