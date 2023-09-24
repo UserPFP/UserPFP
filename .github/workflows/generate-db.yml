@@ -1,4 +1,4 @@
-name: Generate Database
+name: Update dist.css
 
 on:
   push:
@@ -13,18 +13,9 @@ on:
       - main
   workflow_dispatch:
 
-concurrency:
-  group: ${{ github.ref }}
-  cancel-in-progress: true
-
 jobs:
   generate:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    strategy:
-      matrix:
-        retry-max: [3]  # Set the maximum number of retries here
 
     steps:
       - uses: actions/checkout@v3
@@ -39,39 +30,12 @@ jobs:
           npm i -g pnpm
           pnpm i
 
-      - name: Run generate script
-        working-directory: .github/scripts
-        run: pnpm run generate
-
-      - name: Generate JSON
-        id: generate-json
-        run: |
-          # Use a script or command to generate the JSON data and store it in an environment variable.
-          # For example, you can use 'jq' to convert CSV or other data into JSON:
-          # JSON_DATA=$(jq -R -s 'split("\n")[:-1] | map(split(",")) | [.[0] as $key | .[1:] | {($key): .}] | add' data.csv)
-
-          # Replace 'data.csv' and the jq command with your actual data source and conversion command.
-          JSON_DATA=$(jq -R -s 'split("\n")[:-1] | map(split(",")) | [.[0] as $key | .[1:] | {($key): .}] | add' data.csv)
-
-          echo "::set-output name=json_data::$JSON_DATA"
-
       - name: Generate CSS
         id: generate-css
         run: |
-          # Use the generated JSON data from the previous step to create CSS selectors.
-          JSON_DATA="${{ steps.generate-json.outputs.json_data }}"
-          CSS_SELECTORS=""
-
-          # Loop through the JSON data and create CSS selectors based on user IDs.
-          for USER_ID in $(echo "$JSON_DATA" | jq -r 'keys[]'); do
-            CSS_SELECTORS="$CSS_SELECTORS,[style^=\"https://cdn.discordapp.com/avatars/$USER_ID\"],[src^=\"https://cdn.discordapp.com/avatars/$USER_ID\"]"
-          done
-
-          # Remove leading comma and set the CSS content.
-          CSS_SELECTORS="${CSS_SELECTORS#,}"
-          CSS_CONTENT="$CSS_SELECTORS { /* Your CSS styles here */ }"
-
-          echo "::set-output name=css_content::$CSS_CONTENT"
+          # Use a script or command to generate the CSS content based on your requirements.
+          # For example, you can create the CSS content using echo:
+          echo "[style^=\"https://cdn.discordapp.com/avatars/559426966151757824\"],[src^=\"https://cdn.discordapp.com/avatars/559426966151757824\"] { /* Your CSS styles here */ }" > db/dist.css
 
       - name: Push changes
         continue-on-error: ${{ success() }}
@@ -79,12 +43,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Use the generated JSON data from the previous step to create a JSON file.
-          echo "${{ steps.generate-json.outputs.json_data }}" > db/datadesktop.json
-
-          # Use the generated CSS content from the previous step to create a CSS file.
-          echo "${{ steps.generate-css.outputs.css_content }}" > db/dist.css
-
-          git add db/datadesktop.json db/dist.css
-          git commit -m "chore(db): update datadesktop.json and dist.css (${{ github.sha || 'manual trigger' }})" || true
+          # Use the generated CSS content from the previous step to update the dist.css file.
+          git add db/dist.css
+          git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
           git push
