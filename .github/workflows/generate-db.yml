@@ -80,6 +80,7 @@ jobs:
           awk -v avatars_content="$AVATARS_CSS_CONTENT" '/\/\* Discord Avatars \*\// {print; print avatars_content; f=1; next} /\/\* End of Discord Avatars \*\// {if (f) f=0; else print} !f' "$CSS_FILE" > tmpfile && mv tmpfile "$CSS_FILE"
 
       - name: Push changes
+        continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
