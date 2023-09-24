@@ -8,6 +8,7 @@ on:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
       - "db/template.css"
+      - "db/data.json" # Add the path to your JSON file here
   pull_request:
     branches:
       - main
@@ -30,12 +31,48 @@ jobs:
           npm i -g pnpm
           pnpm i
 
-      - name: Generate CSS
-        id: generate-css
+      - name: Update dist.css
+        id: update-dist-css
         run: |
-          # Use a script or command to generate the CSS content based on your requirements.
-          # For example, you can create the CSS content using echo:
-          echo "[style^=\"https://cdn.discordapp.com/avatars/559426966151757824\"],[src^=\"https://cdn.discordapp.com/avatars/559426966151757824\"] { /* Your CSS styles here */ }" > db/dist.css
+          # Define the paths to your JSON and CSS files
+          JSON_FILE="db/data.json"
+          CSS_FILE="db/dist.css"
+
+          # Read the JSON data into a variable
+          JSON_DATA=$(cat "$JSON_FILE")
+
+          # Initialize an empty CSS content variable
+          CSS_CONTENT=""
+
+          # Loop through each badge entry in the JSON data
+          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
+            BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
+
+            # Create CSS snippet for the badge
+            CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
+.userPopoutInner-nv9Y92:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .container-1gYwHN:before,
+.userInfo-regn9W:has([src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .wrapper-3Un6-K + div > .container-1gYwHN:before,
+.userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr[style*=\"$DISCORD_ID\"]) > .container-1gYwHN:before {
+  content: \"\";
+  width: 22px;
+  height: 22px;
+  background: url($BADGE_URL) center / 100% 100%;
+}"
+
+            # Append the CSS snippet to the CSS content
+            CSS_CONTENT="${CSS_CONTENT}\n\n$CSS_SNIPPET"
+          done
+
+          # Append or update the CSS content in the CSS file
+          if grep -q '/* Discord Badges */' "$CSS_FILE"; then
+            # Update existing badge styles
+            sed -i '/\/\* Discord Badges \*\// {n; /\/\* End of Discord Badges \*\// {i\
+'"$CSS_CONTENT"'
+; :a;n;ba}}' "$CSS_FILE"
+          else
+            # Append badge styles to the end of the file
+            echo -e "\n/* Discord Badges */\n$CSS_CONTENT\n/* End of Discord Badges */" >> "$CSS_FILE"
+          fi
 
       - name: Push changes
         continue-on-error: ${{ success() }}
@@ -43,7 +80,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Use the generated CSS content from the previous step to update the dist.css file.
+          # Commit and push the updated dist.css file
           git add db/dist.css
           git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
           git push
