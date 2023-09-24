@@ -1,4 +1,4 @@
-name: Update dist.css
+name: Update dist.css and Avatars
 
 on:
   push:
@@ -8,7 +8,7 @@ on:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
       - "db/template.css"
-      - "db/data.json" # Add the path to your JSON file here
+      - "db/datadesktop.json" # Add the path to your JSON file here
   pull_request:
     branches:
       - main
@@ -35,7 +35,7 @@ jobs:
         run: |
           cp db/data.json db/datadesktop.json
 
-      - name: Update dist.css
+      - name: Update dist.css and Avatars
         id: update-dist-css
         run: |
           # Define the paths to your JSON and CSS files
@@ -45,15 +45,18 @@ jobs:
           # Read the JSON data into a variable
           JSON_DATA=$(cat "$JSON_FILE")
 
-          # Initialize an empty CSS content variable
-          CSS_CONTENT=""
+          # Initialize an empty CSS content variable for badges
+          BADGES_CSS_CONTENT=""
+
+          # Initialize an empty CSS content variable for avatars (pfps)
+          AVATARS_CSS_CONTENT=""
 
           # Loop through each badge entry in the JSON data
           for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
             BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
 
             # Create CSS snippet for the badge
-            CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
+            BADGES_CSS_SNIPPET=".userProfileInner-1ngKnf:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .topSection-13QKHs > header > .header-S26rhB > .headerTop-1PNKck > .container-1gYwHN:before,
 .userPopoutInner-nv9Y92:has(.avatar-31d8He[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .container-1gYwHN:before,
 .userInfo-regn9W:has([src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"]) > .wrapper-3Un6-K + div > .container-1gYwHN:before,
 .userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr[style*=\"$DISCORD_ID\"]) > .container-1gYwHN:before {
@@ -63,28 +66,25 @@ jobs:
   background: url($BADGE_URL) center / 100% 100%;
 }"
 
-            # Append the CSS snippet to the CSS content
-            CSS_CONTENT="${CSS_CONTENT}\n\n$CSS_SNIPPET"
+            # Append the badge CSS snippet to the badge CSS content
+            BADGES_CSS_CONTENT="${BADGES_CSS_CONTENT}\n\n$BADGES_CSS_SNIPPET"
           done
 
-          # Loop through each avatar entry in the JSON data
+          # Loop through each avatar (pfp) entry in the JSON data
           for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.avatars | keys[]'); do
             AVATAR_URL=$(echo "$JSON_DATA" | jq -r ".avatars[\"$DISCORD_ID\"]")
 
-            # Create CSS snippet for the avatar
-            CSS_SNIPPET="[style^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],.userAvatar-3Hwf1F:is([style*=\"$DISCORD_ID\"]) {
-  content: url($AVATAR_URL);
-  background-image: url($AVATAR_URL) !important;
-}"
+            # Create CSS snippet for the avatar (pfp)
+            AVATARS_CSS_SNIPPET="[style^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],.userAvatar-3Hwf1F:is([style*=\"$DISCORD_ID\"]) {content: url($AVATAR_URL); background-image: url($AVATAR_URL) !important;}"
 
-            # Append the CSS snippet to the CSS content
-            CSS_CONTENT="${CSS_CONTENT}\n\n$CSS_SNIPPET"
+            # Append the avatar (pfp) CSS snippet to the avatar (pfp) CSS content
+            AVATARS_CSS_CONTENT="${AVATARS_CSS_CONTENT}\n\n$AVATARS_CSS_SNIPPET"
           done
 
-          # Update the existing CSS content with new/updated badges and avatars
-          sed -i '/\/\* Discord Badges and Avatars \*\// {n; /\/\* End of Discord Badges and Avatars \*\// {i\
-'"$CSS_CONTENT"'
-; :a;n;ba}}' "$CSS_FILE"
+          # Use awk to replace the existing badge and avatar (pfp) sections in the CSS file
+          awk -v badges_content="$BADGES_CSS_CONTENT" -v avatars_content="$AVATARS_CSS_CONTENT" '/\/\* Discord Badges \*\// {print; print badges_content; f=1; next} /\/\* End of Discord Badges \*\// {if (f) f=0; else print} !f' "$CSS_FILE" > tmpfile && mv tmpfile "$CSS_FILE"
+
+          awk -v avatars_content="$AVATARS_CSS_CONTENT" '/\/\* Discord Avatars \*\// {print; print avatars_content; f=1; next} /\/\* End of Discord Avatars \*\// {if (f) f=0; else print} !f' "$CSS_FILE" > tmpfile && mv tmpfile "$CSS_FILE"
 
       - name: Push changes
         continue-on-error: ${{ success() }}
