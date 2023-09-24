@@ -39,7 +39,7 @@ jobs:
         id: update-dist-css
         run: |
           # Define the paths to your JSON and CSS files
-          JSON_FILE="db/data.json"
+          JSON_FILE="db/datadesktop.json"
           CSS_FILE="db/dist.css"
 
           # Read the JSON data into a variable
@@ -67,16 +67,24 @@ jobs:
             CSS_CONTENT="${CSS_CONTENT}\n\n$CSS_SNIPPET"
           done
 
-          # Append or update the CSS content in the CSS file
-          if grep -q '/* Discord Badges */' "$CSS_FILE"; then
-            # Update existing badge styles
-            sed -i '/\/\* Discord Badges \*\// {n; /\/\* End of Discord Badges \*\// {i\
+          # Loop through each avatar entry in the JSON data
+          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.avatars | keys[]'); do
+            AVATAR_URL=$(echo "$JSON_DATA" | jq -r ".avatars[\"$DISCORD_ID\"]")
+
+            # Create CSS snippet for the avatar
+            CSS_SNIPPET="[style^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],[src^=\"https://cdn.discordapp.com/avatars/$DISCORD_ID\"],.userAvatar-3Hwf1F:is([style*=\"$DISCORD_ID\"]) {
+  content: url($AVATAR_URL);
+  background-image: url($AVATAR_URL) !important;
+}"
+
+            # Append the CSS snippet to the CSS content
+            CSS_CONTENT="${CSS_CONTENT}\n\n$CSS_SNIPPET"
+          done
+
+          # Update the existing CSS content with new/updated badges and avatars
+          sed -i '/\/\* Discord Badges and Avatars \*\// {n; /\/\* End of Discord Badges and Avatars \*\// {i\
 '"$CSS_CONTENT"'
 ; :a;n;ba}}' "$CSS_FILE"
-          else
-            # Append badge styles to the end of the file
-            echo -e "\n/* Discord Badges */\n$CSS_CONTENT\n/* End of Discord Badges */" >> "$CSS_FILE"
-          fi
 
       - name: Push changes
         continue-on-error: ${{ success() }}
