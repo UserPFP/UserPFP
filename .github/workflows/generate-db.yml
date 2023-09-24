@@ -1,91 +1,71 @@
-name: Update dist.css and Avatars
+name: Generate Database
 
 on:
   push:
+
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -7,25 +7,16 @@ on:
+  
     branches:
       - main
     paths:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
+      - "db/datadesktop.json"
       - "db/template.css"
-      - "db/datadesktop.json" # Add the path to your JSON file here
   pull_request:
     branches:
       - main
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   generate:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    strategy:
+      matrix:
+        retry-max: [3]  # Set the maximum number of retries here
 
     steps:
       - uses: actions/checkout@v3
 
+    
+        
+          
+    
+
+        
+        Expand All
+    
+    @@ -40,15 +31,61 @@ jobs:
+  
       - uses: actions/setup-node@v3
         with:
           node-version: 18.x
-
       - name: Setup PNPM
         working-directory: .github/scripts
         run: |
           npm i -g pnpm
           pnpm i
-
-      - name: Copy data.json to datadesktop.json
-        run: |
-          cp db/data.json db/datadesktop.json
-
-      - name: Update dist.css and Avatars
-        id: update-dist-css
-        run: |
-          # Define the paths to your JSON and CSS files
-          JSON_FILE="db/datadesktop.json"
-          CSS_FILE="db/dist.css"
-          TEMPLATE_FILE="db/template.css"
-
-          # Read the JSON data into a variable
-          JSON_DATA=$(cat "$JSON_FILE")
-
-          # Initialize an empty CSS content variable for badges
-          BADGES_CSS_CONTENT=""
-
-          # Initialize an empty CSS content variable for avatars (pfps)
-          AVATARS_CSS_CONTENT=""
-
-          # Loop through each badge entry in the JSON data
-          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.badges | keys[]'); do
-            BADGE_URL=$(echo "$JSON_DATA" | jq -r ".badges[\"$DISCORD_ID\"]")
-
-            # Create CSS snippet for the badge using the template
-            BADGES_CSS_SNIPPET=$(cat "$TEMPLATE_FILE" | sed "s/{id}/$DISCORD_ID/g; s/{img}/$BADGE_URL/g")
-
-            # Append the badge CSS snippet to the badge CSS content
-            BADGES_CSS_CONTENT="${BADGES_CSS_CONTENT}\n\n$BADGES_CSS_SNIPPET"
-          done
-
-          # Loop through each avatar (pfp) entry in the JSON data
-          for DISCORD_ID in $(echo "$JSON_DATA" | jq -r '.avatars | keys[]'); do
-            AVATAR_URL=$(echo "$JSON_DATA" | jq -r ".avatars[\"$DISCORD_ID\"]")
-
-            # Create CSS snippet for the avatar (pfp) using the template
-            AVATARS_CSS_SNIPPET=$(cat "$TEMPLATE_FILE" | sed "s/{id}/$DISCORD_ID/g; s/{img}/$AVATAR_URL/g")
-
-            # Append the avatar (pfp) CSS snippet to the avatar (pfp) CSS content
-            AVATARS_CSS_CONTENT="${AVATARS_CSS_CONTENT}\n\n$AVATARS_CSS_SNIPPET"
-          done
-
-          # Use awk to replace the existing badge and avatar (pfp) sections in the CSS file
-          awk -v badges_content="$BADGES_CSS_CONTENT" -v avatars_content="$AVATARS_CSS_CONTENT" '/\/\* Discord Badges \*\// {print; print badges_content; f=1; next} /\/\* End of Discord Badges \*\// {if (f) f=0; else print} !f' "$CSS_FILE" > tmpfile && mv tmpfile "$CSS_FILE"
-
-          awk -v avatars_content="$AVATARS_CSS_CONTENT" '/\/\* Discord Avatars \*\// {print; print avatars_content; f=1; next} /\/\* End of Discord Avatars \*\// {if (f) f=0; else print} !f' "$CSS_FILE" > tmpfile && mv tmpfile "$CSS_FILE"
-
+      - name: Run generate script
+        working-directory: .github/scripts
+        run: pnpm run generate
       - name: Push changes
-        continue-on-error: true
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-
-          # Commit and push the updated dist.css and datadesktop.json files
-          git add db/dist.css db/datadesktop.json
-          git commit -m "chore(db): update dist.css and datadesktop.json (${{ github.sha || 'manual trigger' }})" || true
+          git add db/dist.css
+          git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
           git push
