@@ -31,6 +31,10 @@ jobs:
           npm i -g pnpm
           pnpm i
 
+      - name: Copy data.json to datadesktop.json
+        run: |
+          cp db/data.json db/datadesktop.json
+
       - name: Update dist.css
         id: update-dist-css
         run: |
@@ -80,7 +84,7 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          # Commit and push the updated dist.css file
-          git add db/dist.css
-          git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
+          # Commit and push the updated dist.css and datadesktop.json files
+          git add db/dist.css db/datadesktop.json
+          git commit -m "chore(db): update dist.css and datadesktop.json (${{ github.sha || 'manual trigger' }})" || true
           git push
