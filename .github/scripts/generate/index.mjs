@@ -33,7 +33,7 @@ for (const id of Object.keys(templates)) {
 
 console.log("Generating dist.css...");
 const data = JSON.parse(
-  await readFile(join("../../", "db", "datadesktop.json"), "utf8")
+  await readFile(join("../../", "db", "data.json"), "utf8")
 );
 
 const dist = [];
