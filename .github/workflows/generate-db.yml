@@ -7,7 +7,7 @@ on:
     paths:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
-      - "db/datadesktop.json"
+      - "db/data.json"
       - "db/template.css"
   pull_request:
     branches:
@@ -23,9 +23,10 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    strategy:
-      matrix:
-        retry-max: [3]  # Set the maximum number of retries here
+    # v this isn't really needed v
+    # strategy:
+    #   matrix:
+    #     retry-max: [3] # Set the maximum number of retries here
 
     steps:
       - uses: actions/checkout@v3
