@@ -16,7 +16,7 @@ All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be a
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
-Follow the instructions for [Other client mods/Quick CSS](#quick-css).
+Follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
 
 ### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=25 />
 
