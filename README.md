@@ -1,59 +1,68 @@
-<!DOCTYPE html>
-<html>
-<head>
-</head>
-<body>
-
-<h1 style="text-align:center;">USERPFP REBORN</h1>
-<p style="text-align:center;">
-    A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and Nexpid!
+<h1 align="center">USERPFP REBORN</h1>
+<p align="center">
+    A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and nexpid!
     <br>
-    <img height="150" style="align:center;" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
+    <img height=150 align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
 </p>
 
-<h2>How to Request a Profile Picture (PFP)</h2>
+## How to Request a Profile Picture (PFP)
 
-<ol>
-    <li>Join the <a href="https://dsc.gg/USRPFP">USRPFP Reborn Discord Server</a>.</li>
-    <li>Review the server rules.</li>
-    <li>Go to the <a href="https://discord.com/channels/1129784704267210844/1130090223783641088">#pfp-requests channel</a> and submit your avatar (link/attachment).</li>
-    <li>Wait for acceptance.</li>
-</ol>
+1. Join the [USRPFP Reborn Discord Server](https://dsc.gg/USRPFP).
+2. Review the server rules.
+3. Go to the [#pfp-requests channel](https://discord.com/channels/1129784704267210844/1130090223783641088) and submit your avatar (link/attachment).
+4. Wait for acceptance.
 
-<p>All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.</p>
+All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.
 
-<h2 style="display:flex; align-items:center;">1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="50"></h2>
-<p>Follow the instructions for <a href="#quick-css">Other client mods/Quick CSS</a>.</p>
+### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=35 />
 
-<h2 style="display:flex; align-items:center;">2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height="50"></h2>
-<p>To install for Replugged:
-<ol>
-    <li>Clone the repo using <a href="https://docs.github.com/en/get-started/quickstart/set-up-git">git</a>.</li>
-    <li>Navigate to <code>path_to_replugged/src/Powercord/themes</code> and run:
-        <pre><code>git clone https://github.com/Yeetov/USRPFP-Reborn</code></pre>
-    </li>
-</ol>
+Follow the instructions for [Other client mods/Quick CSS](#quick-css).
+
+### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=35 />
+
+To install for Replugged:
+
+1. Clone the repo using [git](https://docs.github.com/en/get-started/quickstart/set-up-git).
+2. Navigate to `path_to_replugged/src/Powercord/themes` and run:
+
+   ```sh
+   git clone https://github.com/Yeetov/USRPFP-Reborn
+   ```
+
+### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=35 />
+
+Add the following snippet to your Quick CSS:
+
+```css
+@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
+```
+
+### 4. USRPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=35 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=35 />
+
+#### Vendetta
+
+Plugin by nexpid is available [here](https://vendetta.nexpid.xyz/usrpfp)
+
+#### Aliucord
+
+Plugin by OmegaSunkey is available [here](https://github.com/OmegaSunkey/awesomeplugins/raw/builds/UserPFP.zip)
+
+## Banner Alternative
+
+A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions similarly but for banners.
+
+## Development Team
+
+FoxStorm1, nexpid, Coolesding, OmegaSunkey</p>
+
+## Approval Team
+
+FoxStorm1, Astremia
+
+---
+
+<p align="center">
+    <img src="https://i.imgur.com/HaFW8J6.png" alt="USRPFP Logo" height=250 />
+    <br/>
+    <i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i>
 </p>
-
-<h2 id="quick-css" style="display:flex; align-items:center;">3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height="50"></h2>
-<p>Add the following snippet to your Quick CSS:
-<pre><code>@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");</code></pre>
-</p>
-
-<h2 style="display:flex; align-items:center;">4. USRPFP for Android <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height="50"></h2>
-<p>Currently available only for <a href="https://vendetta.vercel.app/">Vendetta</a>.</p>
-
-<h2>Banner Alternative</h2>
-
-<p>A predecessor to USRPFP is <a href="https://github.com/Discord-Custom-Covers/usrbg">USRBG</a>, which functions similarly but for banners.</p>
-
-<h2>Development Team</h2>
-<p>FoxStorm1, Nexpid, Coolesding</p>
-
-<h2>Approval Team</h2>
-<p>FoxStorm1, Astremia</p>
-
-<p style="text-align:center;"><img src="https://camo.githubusercontent.com/c898c58f39e46d5178698e0619b5d3722ef1ea6b007d07f92f0ced63cda2e57f/68747470733a2f2f692e696d6775722e636f6d2f48614657384a362e706e67" alt="USRPFP Logo" height="200"><br><i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i></p>
-
-</body>
-</html>
