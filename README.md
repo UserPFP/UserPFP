@@ -14,11 +14,11 @@
 
 All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.
 
-### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=35 />
+### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
 Follow the instructions for [Other client mods/Quick CSS](#quick-css).
 
-### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=35 />
+### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=25 />
 
 To install for Replugged:
 
@@ -29,7 +29,7 @@ To install for Replugged:
    git clone https://github.com/Yeetov/USRPFP-Reborn
    ```
 
-### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=35 />
+### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
 Add the following snippet to your Quick CSS:
 
@@ -37,7 +37,7 @@ Add the following snippet to your Quick CSS:
 @import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
 ```
 
-### 4. USRPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=35 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=35 />
+### 4. USRPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
 
 #### Vendetta
 
@@ -51,6 +51,10 @@ Plugin by OmegaSunkey is available [here](https://github.com/OmegaSunkey/awesome
 
 A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions similarly but for banners.
 
+<p align="center">
+    <img src="https://i.imgur.com/HaFW8J6.png" alt="USRPFP Logo" height=250 />
+</p>
+
 ## Development Team
 
 FoxStorm1, nexpid, Coolesding, OmegaSunkey</p>
@@ -62,7 +66,5 @@ FoxStorm1, Astremia
 ---
 
 <p align="center">
-    <img src="https://i.imgur.com/HaFW8J6.png" alt="USRPFP Logo" height=250 />
-    <br/>
     <i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i>
 </p>
