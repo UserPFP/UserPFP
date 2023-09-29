@@ -61,7 +61,7 @@ FoxStorm1, nexpid, Coolesding, OmegaSunkey</p>
 
 ## Approval Team
 
-FoxStorm1, Astremia
+FoxStorm1, Astremia, OmegaSunkey
 
 ---
 
