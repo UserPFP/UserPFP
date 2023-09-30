@@ -4,7 +4,7 @@
 [src^="https://cdn.discordapp.com/avatars/{id}"],
 .userAvatar-3Hwf1F:is([style*="{id}"]) {
   content: url({img});
-  background-image: url({img}) !important;
+  object-fit: scale-down;
 }
 /* AVATAR-TEMPLATE-END */
 
