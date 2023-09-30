@@ -1,10 +1,10 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
 [style^="https://cdn.discordapp.com/avatars/{id}"],
-[src^="https://cdn.discordapp.com/avatars/{id}"],
-.userAvatar-3Hwf1F:is([style*="{id}"]) {
+[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img});
   object-fit: scale-down;
+  aspect-ratio: 1;
 }
 /* AVATAR-TEMPLATE-END */
 
