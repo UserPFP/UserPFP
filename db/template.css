@@ -1,6 +1,6 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
-[style^="https://cdn.discordapp.com/avatars/{id}"],
+[style*="https://cdn.discordapp.com/avatars/{id}"],
 [src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img});
   object-fit: scale-down;
