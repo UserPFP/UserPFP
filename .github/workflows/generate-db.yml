@@ -3,7 +3,7 @@ name: Generate Database
 on:
   push:
     branches:
-      - main
+      - alpha
     paths:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
@@ -11,7 +11,7 @@ on:
       - Source/template.css"
   pull_request:
     branches:
-      - main
+      - alpha
   workflow_dispatch:
 
 concurrency:
