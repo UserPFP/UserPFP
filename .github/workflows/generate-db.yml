@@ -7,8 +7,8 @@ on:
     paths:
       - ".github/workflows/generate-db.yml"
       - ".github/scripts/generate/**/*.*"
-      - "db/data.json"
-      - "db/template.css"
+      - Source/data.json"
+      - Source/template.css"
   pull_request:
     branches:
       - main
@@ -50,6 +50,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
-          git add db/dist.css
-          git commit -m "chore(db): update dist.css (${{ github.sha || 'manual trigger' }})" || true
+          git add Source/import.css
+          git commit -m "Update import.css (${{ github.sha || 'manual trigger' }})" || true
           git push
