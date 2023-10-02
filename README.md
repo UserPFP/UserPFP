@@ -1,4 +1,4 @@
-<h1 align="center">USERPFP REBORN</h1>
+<h1 align="center">USERPFP</h1>
 <p align="center">
     A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and nexpid!
     <br>
@@ -7,7 +7,7 @@
 
 ## How to Request a Profile Picture (PFP)
 
-1. Join the [USRPFP Reborn Discord Server](https://dsc.gg/USRPFP).
+1. Join the [USERPFP Discord Server](https://dsc.gg/USRPFP).
 2. Review the server rules.
 3. Go to the [#pfp-requests channel](https://discord.com/channels/1129784704267210844/1130090223783641088) and submit your avatar (link/attachment).
 4. Wait for acceptance.
@@ -26,7 +26,7 @@ To install for Replugged:
 2. Navigate to `path_to_replugged/src/Powercord/themes` and run:
 
    ```sh
-   git clone https://github.com/UserPFP/USRPFP
+   git clone https://github.com/UserPFP/USERPFP
    ```
 
 ### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
@@ -37,7 +37,7 @@ Add the following snippet to your Quick CSS:
 @import url("https://userpfp.github.io/UserPFP/db/dist.css");
 ```
 
-### 4. USRPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
+### 4. USERPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
 
 #### Vendetta
 
@@ -49,7 +49,7 @@ Plugin by OmegaSunkey is available [here](https://github.com/OmegaSunkey/awesome
 
 ## Banner Alternative
 
-A predecessor to USRPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions similarly but for banners.
+A predecessor to USERPFP is [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which functions similarly but for banners.
 
 <p align="center">
     <img src="https://i.imgur.com/HaFW8J6.png" alt="USRPFP Logo" height=250 />
