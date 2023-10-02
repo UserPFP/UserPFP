@@ -26,7 +26,7 @@ To install for Replugged:
 2. Navigate to `path_to_replugged/src/Powercord/themes` and run:
 
    ```sh
-   git clone https://github.com/Yeetov/USRPFP-Reborn
+   git clone https://github.com/UserPFP/USRPFP
    ```
 
 ### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
@@ -34,7 +34,7 @@ To install for Replugged:
 Add the following snippet to your Quick CSS:
 
 ```css
-@import url("https://raw.githubusercontent.com/Yeetov/USRPFP-Reborn/main/db/dist.css");
+@import url("https://userpfp.github.io/UserPFP/db/dist.css");
 ```
 
 ### 4. USRPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
