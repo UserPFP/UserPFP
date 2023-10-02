@@ -1,11 +1,11 @@
-<h1 align="center">USERPFP REBORN</h1>
+<h1 align="center">holder</h1>
 <p align="center">
     A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and nexpid!
     <br>
     <img height=150 align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
 </p>
 
-## How to Request a Profile Picture (PFP)
+## How to Request a Profile Picture (USRPFP REBORN)
 
 1. Join the [USRPFP Reborn Discord Server](https://dsc.gg/USRPFP).
 2. Review the server rules.
