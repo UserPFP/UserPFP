@@ -46,7 +46,7 @@ for (const [bid, img] of Object.entries(data.badges)) {
 }
 
 await writeFile(
-  join("../../", "import.css"),
+  join("../../", "Source", "import.css"),
   uglify ? UglifyCSS.processString(dist.join("\n")) : dist.join("\n\n")
 );
 
