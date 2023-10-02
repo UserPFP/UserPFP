@@ -8,7 +8,7 @@ const uglify = !process.argv.includes("--debug");
 
 console.log("Getting templates...");
 const templateLines = (
-  await readFile(join("../../", "db", "template.css"), "utf8")
+  await readFile(join("../../", "source", "template.css"), "utf8")
 )
   .replace(/\r/g, "")
   .split("\n");
@@ -31,9 +31,9 @@ for (const id of Object.keys(templates)) {
   else throw new Error(`Failed to get template lines for: ${id}`);
 }
 
-console.log("Generating dist.css...");
+console.log("Generating import.css...");
 const data = JSON.parse(
-  await readFile(join("../../", "db", "data.json"), "utf8")
+  await readFile(join("../../", "source", "data.json"), "utf8")
 );
 
 const dist = [];
@@ -46,7 +46,7 @@ for (const [bid, img] of Object.entries(data.badges)) {
 }
 
 await writeFile(
-  join("../../", "db", "dist.css"),
+  join("../../", "source", "import.css"),
   uglify ? UglifyCSS.processString(dist.join("\n")) : dist.join("\n\n")
 );
 
