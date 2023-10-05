@@ -16,7 +16,7 @@ All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be a
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
-Follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
+Add `https://userpfp.github.io/UserPFP/import.css` to the "Online Themes" tab in Themes settings. Alternatively, follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
 
 ### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=25 />
 
@@ -34,7 +34,7 @@ To install for Replugged:
 Add the following snippet to your Quick CSS:
 
 ```css
-@import url("https://userpfp.github.io/UserPFP/db/dist.css");
+@import url("https://userpfp.github.io/UserPFP/import.css");
 ```
 
 ### 4. USERPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
