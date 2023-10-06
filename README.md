@@ -6,8 +6,7 @@
 </p>
 
 ## How to Request a Profile Picture (PFP)
-
-1. Join the [USERPFP Discord Server](https://dsc.gg/USRPFP).
+1. Join the [USERPFP Discord Server](https://discord.gg/3Qrd8vsT9p).
 2. Review the server rules.
 3. Go to the [#pfp-requests channel](https://discord.com/channels/1129784704267210844/1130090223783641088) and submit your avatar (link/attachment).
 4. Wait for acceptance.
