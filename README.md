@@ -1,6 +1,6 @@
 <h1 align="center">USERPFP</h1>
 <p align="center">
-    A theme for creating custom Profile Pictures - A collaborative effort by FoxStorm1 and nexpid!
+    A theme/plugin to use animated profile pictures in discord without nitro!
     <br>
     <img height=150 align="center" src="https://i.ibb.co/mbQJSKm/image-2023-07-16-112115872.png">
 </p>
@@ -11,11 +11,11 @@
 3. Go to the [#pfp-requests channel](https://discord.com/channels/1129784704267210844/1130090223783641088) and submit your avatar (link/attachment).
 4. Wait for acceptance.
 
-All requests are manually reviewed by FoxStorm1 and Astremia. Your PFP will be accepted and added after a brief wait.
+All requests are currently manually reviewed by the team and will be periodically accepted.
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
-Follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
+Add `https://userpfp.github.io/UserPFP/import.css` to the "Online Themes" tab in Themes settings. Alternatively, follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
 
 ### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=25 />
 
@@ -33,7 +33,7 @@ To install for Replugged:
 Add the following snippet to your Quick CSS:
 
 ```css
-@import url("https://userpfp.github.io/UserPFP/db/dist.css");
+@import url("https://userpfp.github.io/UserPFP/import.css");
 ```
 
 ### 4. USERPFP for Mobile <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" height=25 /> <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Vendetta Logo" height=25 />
@@ -56,14 +56,11 @@ A predecessor to USERPFP is [USRBG](https://github.com/Discord-Custom-Covers/usr
 
 ## Development Team
 
-FoxStorm1, nexpid, Coolesding, OmegaSunkey</p>
+[FoxStorm1](https://github.com/Yeetov), [nexpid](https://github.com/nexpid), [Coolesding](https://github.com/coolesding), [OmegaSunkey](https://github.com/OmegaSunkey), [p0rtL6](https://github.com/p0rtL6) (planned)</p>
 
 ## Approval Team
 
-FoxStorm1, Astremia, OmegaSunkey
+[FoxStorm1](https://github.com/Yeetov), [Coolesding](https://github.com/coolesding), [Astremia](https://github.com/Astremia), [OmegaSunkey](https://github.com/OmegaSunkey)
 
 ---
 
-<p align="center">
-    <i>readme revised by <a href="https://github.com/nexpid">nexpid</a></i>
-</p>
