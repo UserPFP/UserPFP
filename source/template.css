@@ -5,6 +5,7 @@
   content: url({img});
   object-fit: scale-down;
   aspect-ratio: 1;
+  background-image: none !important;
 }
 /* AVATAR-TEMPLATE-END */
 
