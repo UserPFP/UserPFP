@@ -1,8 +1,0 @@
-{
-  "name": "USRPFP-Reborn",
-  "description": "A theme for having custom PFPS - Continuation by FoxStorm1!",
-  "version": "1.1.1",
-  "author": "Pikai, FoxStorm1",
-  "license": "MIT",
-  "theme": "./src/dist/source.css"
-}

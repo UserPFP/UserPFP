@@ -1,0 +1,37 @@
+{
+  "name": "theme-template",
+  "version": "1.0.1",
+  "description": "A theme to use animated profile pictures in discord without nitro!",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  },
+  "scripts": {
+    "build": "replugged build theme",
+    "watch": "replugged build theme --watch",
+    "bundle": "replugged bundle theme",
+    "release": "replugged release",
+    "lint": "prettier ./src --check",
+    "lint:fix": "prettier ./src --write"
+  },
+  "keywords": [],
+  "author": [
+    {
+        "name": "foxstorm1",
+        "discordID": "789872551731527690",
+        "github": "Yeetov"
+    },
+    {
+        "name": "Pikai",
+        "github": "beudave"
+    }
+  ],
+  "license": "GPL 3.0",
+  "devDependencies": {
+    "@parcel/config-default": "^2.9.3",
+    "@parcel/core": "^2.9.3",
+    "@types/node": "^18.17.6",
+    "prettier": "^2.8.8",
+    "replugged": "^4.6.0"
+  }
+}
