@@ -21,8 +21,14 @@ Add `https://userpfp.github.io/UserPFP/import.css` to the "Online Themes" tab in
 
 To install for Replugged:
 
+Click here:
+
+[![Install in Replugged](https://img.shields.io/badge/-Install%20in%20Replugged-blue?style=for-the-badge&logo=none)](https://replugged.dev/install?identifier=dev.userpfp.userpfp)
+
+OR
+
 1. Clone the repo using [git](https://docs.github.com/en/get-started/quickstart/set-up-git).
-2. Navigate to `path_to_replugged/src/Powercord/themes` and run:
+2. Navigate to `path_to_replugged/themes` and run:
 
    ```sh
    git clone https://github.com/UserPFP/USERPFP
