@@ -16,11 +16,11 @@
   "version": "1.0.1",
   "updater": {
     "type": "github",
-    "id": "UserPFP/USERPFP"
+    "id": "UserPFP/UserPFP"
   },
   "license": "GPL 3.0",
   "type": "replugged-theme",
   "main": "src/main.css",
-  "source": "https://github.com/UserPFP/USERPFP",
+  "source": "https://github.com/UserPFP/UserPFP",
   "image": ["https://camo.githubusercontent.com/68decd2d5b4c237a97940c9012474ce82e6ed3eee65b3950032475ce82192c03/68747470733a2f2f692e6962622e636f2f6d62514a534b6d2f696d6167652d323032332d30372d31362d3131323131353837322e706e67"]
 }
