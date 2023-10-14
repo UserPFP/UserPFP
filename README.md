@@ -62,7 +62,7 @@ A predecessor to USERPFP is [USRBG](https://github.com/Discord-Custom-Covers/usr
 
 ## Development Team
 
-[FoxStorm1](https://github.com/Yeetov), [nexpid](https://github.com/nexpid), [Coolesding](https://github.com/coolesding), [OmegaSunkey](https://github.com/OmegaSunkey), [Katlyn](https://github.com/katlyn) [p0rtL6](https://github.com/p0rtL6) (planned)</p>
+[FoxStorm1](https://github.com/Yeetov), [nexpid](https://github.com/nexpid), [Coolesding](https://github.com/coolesding), [OmegaSunkey](https://github.com/OmegaSunkey), [Katlyn](https://github.com/katlyn), [p0rtL6](https://github.com/p0rtL6) (planned)</p>
 
 ## Approval Team
 
