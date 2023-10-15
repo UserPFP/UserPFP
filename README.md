@@ -15,7 +15,7 @@ All requests are currently manually reviewed by the team and will be periodicall
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
-Add `https://userpfp.github.io/UserPFP/import.css` to the "Online Themes" tab in Themes settings. Alternatively, follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css-).
+Add `https://userpfp.github.io/UserPFP/import.css` to the "Online Themes" tab in Themes settings. Alternatively, follow the instructions for [Other client mods/Quick CSS](#3-other-client-modsquick-css).
 
 ### 2. Replugged <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" height=25 />
 
@@ -34,7 +34,7 @@ OR
    git clone https://github.com/UserPFP/USERPFP
    ```
 
-### 3. Other Client Mods/Quick CSS <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
+### 3. Other Client Mods/Quick CSS
 
 Add the following snippet to your Quick CSS:
 
