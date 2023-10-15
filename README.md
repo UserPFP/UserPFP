@@ -13,7 +13,7 @@
 
 All requests are currently manually reviewed by the team and will be accepted/denied.
 
-[Gif](https://i.ibb.co/GnmvnLB/No-Nitro.gif)
+![](https://i.ibb.co/GnmvnLB/No-Nitro.gif)
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
