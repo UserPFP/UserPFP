@@ -2,7 +2,7 @@
 <p align="center">
     A theme/plugin to use animated profile pictures in discord without nitro!
     <br>
-    <img height=450 align="center" src="https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg">
+    <img height=auto align="center" src="https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg">
 </p>
 
 ## How to Request a Profile Picture (PFP)
