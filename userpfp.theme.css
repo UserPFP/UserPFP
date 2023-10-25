@@ -7,3 +7,9 @@
 
 /* Avatar Import */
 @import url("https://userpfp.github.io/UserPFP/import.css");
+[class^=userAvatar_] {
+    border: 3px solid transparent;
+  }
+:not([class^=avatarStack_])>[class*=avatarSpeaking_] {
+    border: 3px solid var(--green-360) !important;
+}

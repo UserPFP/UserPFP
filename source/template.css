@@ -1,7 +1,7 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /* Custom avatar for {id} */
-[style*="https://cdn.discordapp.com/avatars/{id}"],
-[src*="{id}"] {
+div:is([style*="{id}"]),
+img:is([src^="https://cdn.discordapp.com/avatars/{id}"]) {
   content: url({img});
   object-fit: scale-down;
   aspect-ratio: 1;
@@ -11,10 +11,7 @@
 
 /* BADGE-TEMPLATE-BEGIN */
 /* Custom badge for {id} */
-.userProfileInner-1ngKnf:has(.avatar-31d8He:is([src^="https://cdn.discordapp.com/avatars/{id}"]))>.topSection-13QKHs>header>.header-S26rhB>.headerTop-1PNKck>.container-1gYwHN:before,
-.userPopoutInner-nv9Y92:has(.avatar-31d8He:is([src^="https://cdn.discordapp.com/avatars/{id}"]))>.container-1gYwHN:before,
-.userInfo-regn9W:has([src^="https://cdn.discordapp.com/avatars/{id}"])>.wrapper-3Un6-K+div>.container-1gYwHN:before,
-.userPopoutInner-nv9Y92:has(.imageUploaderInner-IIRaFr:is([style*="{id}"]))>.container-1gYwHN:before {
+:is([class^=userPopoutInner], [class^=header_], [class^=userInfo_], [class^=none_]):has(img[src^="https://cdn.discordapp.com/avatars/{id}"]) div:is([class^=profileBadges_], [class^=badgeList_]):before {
   content: "";
   width: 22px;
   height: 22px;
