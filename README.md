@@ -17,10 +17,12 @@ All requests are currently manually reviewed by the team and will be accepted/de
 
 ## Supported Discord Client Mods
 
-- ![Vencord Logo](https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp)
-- ![Replugged Logo](https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png)
-- ![Vendetta Logo](https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png)
-- ![Aliucord Logo](https://i.ibb.co/VqR0z6X/78881422.png)
+<div style="display: flex; justify-content: space-between;">
+    <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" width="100"/>
+    <img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" width="100"/>
+    <img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" width="100"/>
+    <img src="https://i.ibb.co/VqR0z6X/78881422.png" alt="Aliucord Logo" width="100"/>
+</div>
 
 ## Installation
 
