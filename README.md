@@ -2,7 +2,7 @@
 <p align="center">
     A theme/plugin to use animated profile pictures in discord without nitro!
     <br>
-    <img height=auto align="center" src="https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg">
+    <img height="500" src="https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg">
 </p>
 
 ## How to Request a Profile Picture (PFP)
@@ -13,7 +13,9 @@
 
 All requests are currently manually reviewed by the team and will be accepted/denied.
 
-![](https://i.ibb.co/GnmvnLB/No-Nitro.gif)
+<p align="center">
+    <img height="350" src="https://i.ibb.co/GnmvnLB/No-Nitro.gif" />
+</p>
 
 ### 1. Vencord <img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" height=25 />
 
