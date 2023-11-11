@@ -19,7 +19,7 @@ All requests are currently manually reviewed by the team and will be accepted/de
     <a href="https://vencord.dev/"><img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" width="100"/></a>
     <a href="https://replugged.dev/"><img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" width="100"/></a>
     <a href="https://vendetta.rocks/"><img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" width="100"/></a>
-    <a href="https://aliucord.com/"><img src="https://i.ibb.co/VqR0z6X/78881422.png" alt "Aliucord Logo" width="100"/></a>
+    <a href="https://aliucord.com/"><img src="https://i.ibb.co/n1d4bjS/68747470733a2f2f692e6962622e636f2f567152307a36582f37383838313432322e706e67.png" alt "Aliucord Logo" width="100"/></a>
     <a href="https://betterdiscord.app/"><img src="https://betterdiscord.app/resources/branding/logo_solid.png" alt="BetterDiscord Logo" width="100"/></a>
     <a href="https://openasar.dev/"><img src="https://goosemod.com/img/logo.jpg" alt="OpenAsar Logo" width="100"/></a>
     <a href="https://aero.icu/"><img src="https://i.ibb.co/vVGLRct/Transparent.png" alt="Aero Logo" width="100"/></a>
