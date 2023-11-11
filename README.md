@@ -13,8 +13,6 @@ A theme/plugin to use animated profile pictures in Discord without Nitro!
 
 All requests are currently manually reviewed by the team and will be accepted/denied.
 
-![No Nitro GIF](https://i.ibb.co/GnmvnLB/No-Nitro.gif)
-
 ## Supported Discord Client Mods
 
 <div style="display: flex; justify-content: space-between;">
