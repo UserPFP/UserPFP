@@ -6,7 +6,7 @@ UserPFP is a theme/plugin that allows you to use animated profile pictures in Di
 
 ## How to Request a Profile Picture (PFP)
 
-1. Join the [UserPFP Discord Server](https://dsc.gg/UserPFP).
+1. Join the [UserPFP Discord Server](https://discord.gg/userpfp-1129784704267210844).
 2. Familiarize yourself with the server rules.
 3. Navigate to the [#request-here channel](https://discord.com/channels/1129784704267210844/1162800344603037856) and submit your avatar (link/attachment).
 4. Await approval from our team.
