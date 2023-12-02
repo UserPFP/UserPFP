@@ -41,9 +41,6 @@ const dist = [];
 for (const [id, img] of Object.entries(data.avatars)) {
   dist.push(templates.avatar.replace(/{id}/g, id).replace(/{img}/g, img));
 }
-for (const [bid, img] of Object.entries(data.badges)) {
-  dist.push(templates.badge.replace(/{id}/g, bid).replace(/{img}/g, img));
-}
 
 await writeFile(
   join("../../", "import.css"),
