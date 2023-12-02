@@ -10,13 +10,3 @@
   background-image: none !important;
 }
 /* AVATAR-TEMPLATE-END */
-
-/* BADGE-TEMPLATE-BEGIN */
-/* Custom badge for {id} */
-:is([class^=userPopoutInner], [class^=header_], [class^=userInfo_], [class^=none_]):has([src^="https://cdn.discordapp.com/avatars/{id}"]) :is([class^=profileBadges_], [class^=badgeList_]):before {
-  content: "";
-  width: 22px;
-  height: 22px;
-  background: url({img}) center / 100% 100%;
-}
-/* BADGE-TEMPLATE-END */
