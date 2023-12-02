@@ -15,7 +15,6 @@ const templateLines = (
 
 const templates = {
   avatar: "",
-  badge: "",
 };
 
 for (const id of Object.keys(templates)) {
