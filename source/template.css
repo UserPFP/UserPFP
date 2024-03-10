@@ -1,3 +1,4 @@
+/* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
 .userAvatar_c4f005[style*="{id}"]
 ,.avatar__08316[src^="https://cdn.discordapp.com/avatars/{id}"]
@@ -8,3 +9,4 @@
   aspect-ratio: 1;
   background-image: none !important;
 }
+/* AVATAR-TEMPLATE-END */
