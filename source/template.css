@@ -1,7 +1,8 @@
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
 .userAvatar_c4f005[style*="{id}"]
 ,.avatar__08316[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"] {
+,.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]
+,.avatar__777a6[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img});
   object-fit: scale-down;
   aspect-ratio: 1;
