@@ -5,8 +5,6 @@
 ,.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]
 ,.avatar__777a6[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img});
-  object-fit: scale-down;
-  aspect-ratio: 1;
   background-image: none !important;
 }
 /* AVATAR-TEMPLATE-END */
