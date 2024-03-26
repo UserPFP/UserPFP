@@ -27,7 +27,7 @@ All requests are manually reviewed, and you will be notified of their acceptance
 
 ## Installation
 
-For detailed installation instructions, please visit the [UserPFP Discord Server's Installation Channel](https://discord.com/channels/1129784704267210844/1158831661832745030).
+For detailed installation instructions, please visit the our discord server.
 
 ## Banner Alternative
 
@@ -42,7 +42,6 @@ If you're interested in banners, check out the predecessor to UserPFP - [USRBG](
 - [Coolesding](https://github.com/coolesding)
 - [OmegaSunkey](https://github.com/OmegaSunkey)
 - [Katlyn](https://github.com/katlyn)
-- [p0rtL6](https://github.com/p0rtL6) (planned)
 
 ## Approval Team
 
@@ -50,3 +49,7 @@ If you're interested in banners, check out the predecessor to UserPFP - [USRBG](
 - [Coolesding](https://github.com/coolesding)
 - [Astremia](https://github.com/Astremia)
 - [OmegaSunkey](https://github.com/OmegaSunkey)
+
+## Note
+
+Has your image been used without permission or you want to remove your profile from our database but you do not have access to our discord server? Please open an issue here and explain your request! Make sure to be cooperative.
