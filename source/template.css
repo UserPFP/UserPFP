@@ -1,11 +1,11 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
-.avatar__08316[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar__991e2[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar__777a6[src^="https://cdn.discordapp.com/avatars/{id}"] {
+.avatar_ec86aa[src^="https://cdn.discordapp.com/avatars/{id}"]
+,.avatar_c51b4e[src^="https://cdn.discordapp.com/avatars/{id}"]
+,.avatar_c47562[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img})
 }
-.userAvatar_f45224[style*="{id}"] {
+.userAvatar_ac3629[style*="{id}"] {
   content: url({img});
   background-image: none !important
 }
