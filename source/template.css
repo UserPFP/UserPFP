@@ -6,7 +6,6 @@
   content: url({img})
 }
 .userAvatar_ac3629[style*="{id}"] {
-  content: url({img});
-  background-image: none !important
+  background-image: url({img})!important
 }
 /* AVATAR-TEMPLATE-END */
