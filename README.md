@@ -1,55 +1,38 @@
 # UserPFP
 
-UserPFP is a theme/plugin that allows you to use animated profile pictures in Discord without the need for Nitro!
+UserPFP provides an alternative source for Profile pictures, currently only supported for Discord, and allows for GIFs and custom APIs, e.g. to randomise your image on each load.
 
-![Profile Picture](https://i.ibb.co/M1zw6C1/image-2023-10-15-150534630.jpg)
+## Using UserPFP
 
-## How to Request a Profile Picture (PFP)
+To use UserPFP, you have to install or import a plugin or theme on a modified Discord client. Currently supported clients are:
 
-1. Join the [UserPFP Discord Server](https://discord.gg/userpfp-1129784704267210844).
-2. Familiarize yourself with the server rules.
-3. Navigate to the [#request-here channel](https://discord.com/channels/1129784704267210844/1162800344603037856) and submit your avatar (link/attachment).
-4. Await approval from our team.
+[Pyoncord](https://github.com/pyoncord) using a plugin
 
-All requests are manually reviewed, and you will be notified of their acceptance or denial.
+[Vencord](https://vencord.dev) using a theme ([Equicord](https://github.com/Equicord/Equicord) includes a plugin)
 
-## Supported Discord Client Mods
+[Betterdiscord](https://betterdiscord.app) using a theme
 
-<div style="display: flex; justify-content: space-between;">
-    <a href="https://vencord.dev/"><img src="https://i.ibb.co/r7T3twT/cbghhgpcnddeihccjmnadmkaejncjndb-logo.webp" alt="Vencord Logo" width="100"/></a>
-    <a href="https://replugged.dev/"><img src="https://i.ibb.co/6mdQKcH/109933208-s-200-v-4.png" alt="Replugged Logo" width="100"/></a>
-    <a href="https://vendetta.rocks/"><img src="https://i.ibb.co/vQFh0dy/112445065-s-280-v-4.png" alt="Vendetta Logo" width="100"/></a>
-    <a href="https://aliucord.com/"><img src="https://i.ibb.co/n1d4bjS/68747470733a2f2f692e6962622e636f2f567152307a36582f37383838313432322e706e67.png" alt="Aliucord Logo" width="100"/></a>
-    <a href="https://betterdiscord.app/"><img src="https://betterdiscord.app/resources/branding/logo_solid.png" alt="BetterDiscord Logo" width="100"/></a>
-    <a href="https://openasar.dev/"><img src="https://goosemod.com/img/logo.jpg" alt="OpenAsar Logo" width="100"/></a>
-    <a href="https://aero.icu/"><img src="https://i.ibb.co/vVGLRct/Transparent.png" alt="Aero Logo" width="100"/></a>
-</div>
+[Replugged](https://replugged.dev/) using a plugin-theme hybrid
 
-## Installation
+After that, you will have to submit a profile picture for review, either using the plugin settings [COMING SOON] or by joining our [Discord server](https://discord.gg/userpfp-1129784704267210844)
 
-For detailed installation instructions, please visit the our discord server.
+## Our team
 
-## Banner Alternative
+This is the list of team members in UserPFP:
 
-If you're interested in banners, check out the predecessor to UserPFP - [USRBG](https://github.com/Discord-Custom-Covers/usrbg), which offers a similar functionality.
+- [coolesding](https://github.com/coolesding) (Organisation)
+- [foxstorm1](https://github.com/Yeetov) (Developer)
+- [katlyn](https://github.com/katlyn) (Developer)
+- [nexxpid](https://github.com/nexpid) (Developer)
+- [ayoxys](https://discord.com/users/500212086765518858) (Reviewing)
+- [kas](https://discord.com/users/883815804683030539) (Reviewing)
 
-![USRPFP Logo](https://i.imgur.com/HaFW8J6.png)
+Special thanks to:
 
-## Development Team
+[p0rtl](https://github.com/p0rtL6) with her project [usrbg](https://github.com/Discord-Custom-Covers/usrbg), which was the inspiration for UserPFP.
 
-- [FoxStorm1](https://github.com/Yeetov)
-- [nexpid](https://github.com/nexpid)
-- [Coolesding](https://github.com/coolesding)
-- [OmegaSunkey](https://github.com/OmegaSunkey)
-- [Katlyn](https://github.com/katlyn)
+[thororen](https://github.com/thororen1234) with [Equicord](https://github.com/Equicord/Equicord), which adds features from Vencord pull requests that aren't processed allowing UserPFP to get its deserved plugin.
 
-## Approval Team
+## Legal
 
-- [FoxStorm1](https://github.com/Yeetov)
-- [Coolesding](https://github.com/coolesding)
-- [Astremia](https://github.com/Astremia)
-- [OmegaSunkey](https://github.com/OmegaSunkey)
-
-## Note
-
-Has your image been used without permission or you want to remove your profile from our database but you do not have access to our discord server? Please open an issue here and explain your request! Make sure to be cooperative.
+UserPFP contains user-generated content, which we give our best efforts to scan for copyrighted material or otherwise disallowed content. We can not guarantee a 100% accurate filter, if you find a copyright work or otherwise disallowed content in our database, please open an issue in this or the database repository to notify the team.
