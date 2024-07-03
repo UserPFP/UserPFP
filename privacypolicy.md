@@ -2,9 +2,9 @@
 
 ### By using UserPFP you agree to following privacy policy:
 
-UserPFP and all services provided by it collects the account's user ID as well as the image submitted as a UserPFP to run its service properly. 
+UserPFP needs to collect the minimum data to identify which account a submitted picture belongs to (For Discord this is the user ID). This identifying information is displayed publicly and paired with a link to the image that user submitted at ./source/data.json. 
 
-The user ID will be displayed publicly, together with the submitted image in a public list found in this repository (./source/data.json).
+That information is then used to generate a CSS file using ./source/template.css into ./import.css, which is distributed to all theme file users. Otherwise the ./source/data.json file is used to directly apply the images.
 
 ---
 Changes to this policy may happen at any time, which, if the change is relevant, will be publicly displayed in the annoucement channel on our Discord Server (See README.md). 

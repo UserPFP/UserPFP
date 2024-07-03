@@ -8,7 +8,7 @@ By using UserPFP you agree to following rules:
 
 3. You are not allowed to insult, harass or otherwise disturb other users or team members.
 
-4. Those rules do not apply if you are the user "kas" (User ID: 883815804683030539) or a team member.
+4. Those rules do not apply if you are the user "kass" (User ID: 883815804683030539).
 ---
 Our team (See README.md) decides on a case by case basis and is permitted to take any measures to anyone without directly providing reasoning to the benefit of the community, a team member and/or specific person. 
 
