@@ -26,6 +26,7 @@ This is the list of team members in UserPFP:
 - [nexxpid](https://github.com/nexpid) (Developer)
 - [ayoxys](https://discord.com/users/500212086765518858) (Reviewing)
 - [kas](https://discord.com/users/883815804683030539) (Reviewing)
+- [krystallskull](https://github.com/KrystalSkullOfficial) (Reviewing)
 
 Special thanks to:
 
