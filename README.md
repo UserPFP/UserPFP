@@ -14,7 +14,7 @@ To use UserPFP, you have to install or import a plugin or theme on a modified Di
 
 [Replugged](https://replugged.dev/) using a plugin-theme hybrid
 
-After that, you will have to submit a profile picture for review, either using the plugin settings [COMING SOON] or by joining our [Discord server](https://discord.gg/userpfp-1129784704267210844)
+After that, you will have to submit a profile picture for review, either using the plugin settings on supported platforms or by joining our [Discord server](https://discord.gg/userpfp-1129784704267210844)
 
 ## Our team
 
@@ -25,7 +25,6 @@ This is the list of team members in UserPFP:
 - [katlyn](https://github.com/katlyn) (Developer)
 - [nexxpid](https://github.com/nexpid) (Developer)
 - [ayoxys](https://discord.com/users/500212086765518858) (Reviewing)
-- [kas](https://discord.com/users/883815804683030539) (Reviewing)
 - [krystallskull](https://github.com/KrystalSkullOfficial) (Reviewing)
 
 Special thanks to:
