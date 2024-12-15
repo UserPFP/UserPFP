@@ -2,7 +2,8 @@
 /*{id} is userid in data.json and {img} is the image link, usually gif*/
 .clickable_f9f2ca[src^="https://cdn.discordapp.com/avatars/{id}"]
 ,.avatar_c51b4e[src^="https://cdn.discordapp.com/avatars/{id}"]
-,.avatar_c47562[src^="https://cdn.discordapp.com/avatars/{id}"] {
+,.voiceAvatar_db83a2[src^="https://cdn.discordapp.com/avatars/{id}"]
+,.avatar_d03bba[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img})
 }
 .userAvatar_ac3629[style*="{id}"] {
