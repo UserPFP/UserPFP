@@ -4,6 +4,7 @@
 ,.avatar_c19a55[src^="https://cdn.discordapp.com/avatars/{id}"]
 ,.avatar__44b0c[src^="https://cdn.discordapp.com/avatars/{id}"]
 ,.voiceAvatar_f910d0[src^="https://cdn.discordapp.com/avatars/{id}"]
+,.replyAvatar_c19a55[src^="https://cdn.discordapp.com/avatars/{id}"]
 ,.icon__6e9f8[src^="https://cdn.discordapp.com/avatars/{id}"] {
   content: url({img})
 }
