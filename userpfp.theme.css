@@ -1,9 +1,14 @@
 /**
  * @name UserPFP
  * @author FoxStorm1, Pikai, cutekita
- * @version 1.0.2
+ * @version 1.0.3
  * @description A pure CSS database of user requested pfps for Discord.
 */
 
 /* Avatar Import */
 @import url(https://raw.githubusercontent.com/UserPFP/UserPFP/main/import.css);
+
+/*Secret checkmark for people to check if this file is imported*/
+.avatar__44b0c[src^="https://cdn.discordapp.com/avatars/1162809535686262955/"][src$="?size=128"] {
+  content: url(https://raw.githubusercontent.com/UserPFP/img/main/check.png);
+}
