@@ -20,7 +20,7 @@ After that, you will have to submit a profile picture for review, either using t
 
 This is the list of team members in UserPFP:
 
-- [coolesding](https://github.com/coolesding) (Organisation)
+- [cutekita](https://github.com/cutekita) (Organisation)
 - [foxstorm1](https://github.com/Yeetov) (Developer)
 - [katlyn](https://github.com/katlyn) (Developer)
 - [nexxpid](https://github.com/nexpid) (Developer)
