@@ -12,6 +12,6 @@
 @import url(https://raw.githubusercontent.com/UserPFP/UserPFP/main/import.css);
 
 /*Secret checkmark for people to check if this file is imported*/
-.avatar__44b0c[src^="https://cdn.discordapp.com/avatars/1162809535686262955/"][src$="?size=128"] {
+[class$=-avatar][src^="https://cdn.discordapp.com/avatars/1162809535686262955/"][src$="?size=128"] {
   content: url(https://raw.githubusercontent.com/UserPFP/img/main/check.png);
 }
