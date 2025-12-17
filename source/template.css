@@ -1,7 +1,8 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link*/
 [class$=-avatar][src^="https://cdn.discordapp.com/avatars/{id}/"] /*General*/
-,[class$=-clickable][src^="https://cdn.discordapp.com/avatars/{id}/"] /*Chat Messages*/{
+,[class$=-clickable][src^="https://cdn.discordapp.com/avatars/{id}/"] /*Chat Messages*/
+,[class$=-voiceAvatar][src^="https://cdn.discordapp.com/avatars/{id}/"] /*DM VC*/ {
   content: url({img});
 }
 
