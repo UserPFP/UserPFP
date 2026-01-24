@@ -1,12 +1,13 @@
 /* AVATAR-TEMPLATE-BEGIN */
 /*{id} is userid in data.json and {img} is the image link*/
-[class$=-avatar][src^="https://cdn.discordapp.com/avatars/{id}/"] /*General*/
-,[class$=-clickable][src^="https://cdn.discordapp.com/avatars/{id}/"] /*Chat Messages*/
-,[class$=-voiceAvatar][src^="https://cdn.discordapp.com/avatars/{id}/"] /*DM VC*/ {
+.avatar__44b0c[src^="https://cdn.discordapp.com/avatars/{id}/"] /*General*/
+,.avatar_c19a55[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Chat Messages*/
+,.voiceAvatar_f910d0[src^="https://cdn.discordapp.com/avatars/{id}/"] /*DM VC*/ 
+,.avatar__183c2[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Server tooltip preview*/{
   content: url({img});
 }
 
-[class$=-avatarSmall][style*="/{id}/"] /*Voice Channel*/{
+.avatar__07f91[style*="/{id}/"] /*Voice Channel*/{
   background-image: url({img})!important;
 }
 /* AVATAR-TEMPLATE-END */
