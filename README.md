@@ -13,7 +13,7 @@ After that, you will have to submit a profile picture for review, either using t
 This is the list of team members in UserPFP:
 
 - [cutekita](https://github.com/cutekita) (Organisation)
-- [aaronateataco](https://github.com/Yeetov) (Developer and Founder)
+- [aaronateataco](https://github.com/aaronateataco) (Developer and Founder)
 - [katlyn](https://github.com/katlyn) (Developer)
 - [nexpid](https://github.com/nexpid) (Developer)
 - [ayoxys.](https://discord.com/users/500212086765518858) (Reviewing)
