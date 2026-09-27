@@ -3,7 +3,8 @@
 .avatar__44b0c[src^="https://cdn.discordapp.com/avatars/{id}/"] /*General*/
 ,.avatar_c19a55[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Chat Messages*/
 ,.voiceAvatar_f910d0[src^="https://cdn.discordapp.com/avatars/{id}/"] /*DM VC*/ 
-,.avatar__183c2[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Server tooltip preview*/{
+,.avatar__183c2[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Server tooltip preview*/
+,.avatar_e928f4[src^="https://cdn.discordapp.com/avatars/{id}/"] /*Profile Popout activity*/{
   content: url({img});
 }
 
